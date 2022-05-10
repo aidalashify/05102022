@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "LASHIFY 101: BOND",
+        "headline": "LASHIFY 101: BOND",
+        "mobile_content": "Flo Stream",
+        "content": "Flo Stream",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/IMG_3375_520x500_cda884dd-8afa-4c08-8ff0-cae66425d617.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/IMG_3375_520x500_cda884dd-8afa-4c08-8ff0-cae66425d617.webp",
+        "desktop_height": 612,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 65,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "16519387716c106958": {
+      "type": "blog-title",
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "You can’t get ahead of yourself when learning something new. Like the proverb says, ‘You must learn to crawl before you can walk’. Here at Lashify that couldn’t be more accurate— learning the basics first, starting a bit at a time, will set you up for success."
+      }
+    },
+    "1651886010a6fa6597": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Let’s discuss Bonds.",
+        "section-large-heading": "",
+        "description": "Technique aside, the first hurdles to overcome when starting Lashify are psychological: the preconceived notions that 1. More bond equals stronger hold and 2. You have to rush to place your Gossamer lashes before the bond dries. Forget this. In fact, with Lashify there are two cardinal rules to bond application: 1. Less is more 2. The bond has to become tacky prior to Gossamer application.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651938939e932ee45": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "How to Apply Bond.",
+        "section-large-heading": "",
+        "description": "When applying Whisper Light (in either clear or black) always start by dabbing a light coat to the underside of your natural lashes, focusing above the root. Avoid brushing all the way through the lash in order to prevent clumping at the tips of your natural lashes.\n\n“How do I know when I’ve applied too much bond?” If the bond looks overly wet on your natural lashes, that is a good indication too much bond was applied. If this happens, you can gently dab off the excess with a clean finger tip, or by using a disposable spoolie.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651938992938cef1e": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Let it get tacky.",
+        "section-large-heading": "",
+        "description": "Once the correct amount of bond has been applied, wait for the bond to get tacky. You can use this time to sort through your Gossamer collection and pull out the Gossamers you will be using to create your look, take out all of your tools and make sure they are readily available, etc.\n\n“How do I know when the bond is tacky?” Don’t worry about counting to 30 in order to know when your bond is tacky. Instead, flutter your lashes, when your natural lashes start feeling sticky that’s a good sign that the bond has dried! Now you’re ready for Gossamer application.\n\nTIP: If you don’t feel like playing the waiting game, or are in too much of a rush to let the bond get tacky on it’s own, you can fast-track the process with the help of our Blow tool, sold separately on the Lashify website. This $7 gadget is one of the tools you wondered how you ever lived without. Especially in your Lashify Life.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16519386195aafb85b": {
+      "type": "blog-text-two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "Let’s discuss Bonds.",
+        "custom_text_body-left": "<p>Technique aside, the first hurdles to overcome when starting Lashify are psychological: the preconceived notions that 1. More bond equals stronger hold and 2. You have to rush to place your Gossamer lashes before the bond dries. Forget this. In fact, with Lashify there are two cardinal rules to bond application: 1. Less is more 2. The bond has to become tacky prior to Gossamer application.<\/p><p><\/p>",
+        "custom_text_title-right": "How to Apply Bond.",
+        "custom_text_body-right": "<p>When applying Whisper Light (in either clear or black) always start by dabbing a light coat to the underside of your natural lashes, focusing above the root. Avoid brushing all the way through the lash in order to prevent clumping at the tips of your natural lashes.<\/p><p>“How do I know when I’ve applied too much bond?” If the bond looks overly wet on your natural lashes, that is a good indication too much bond was applied. If this happens, you can gently dab off the excess with a clean finger tip, or by using a disposable spoolie.<\/p>"
+      }
+    },
+    "165193886015d17ba3": {
+      "type": "blog-text-two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "",
+        "custom_text_body-left": "",
+        "custom_text_title-right": "Title",
+        "custom_text_body-right": "<p>Add your text here<\/p>"
+      }
+    },
+    "1651885982c20c710c": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "intro": "",
+        "mobile_headline": "",
+        "headline": "",
+        "mobile_content": "",
+        "content": "",
+        "text_color": "white",
+        "desktop_height": 612,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 0,
+        "desktop_text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "right",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "165188598972a79927": {
+      "type": "blog-title",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "Title",
+        "custom_text_span": "span"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16519387716c106958",
+    "1651886010a6fa6597",
+    "1651938939e932ee45",
+    "1651938992938cef1e",
+    "16519386195aafb85b",
+    "165193886015d17ba3",
+    "1651885982c20c710c",
+    "165188598972a79927"
+  ]
+}
