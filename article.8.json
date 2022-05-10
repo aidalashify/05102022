@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "main": {
+      "type": "two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "Title",
+        "custom_text_span": "span",
+        "custom_text_title-left": "Title",
+        "custom_text_body-left": "<p>Add your text here<\/p>",
+        "custom_text_title-right": "Title",
+        "custom_text_body-right": "<p>Add your text here<\/p>"
+      }
+    },
+    "16517199295f65b3c4": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The Best Eyelash Glues",
+        "headline": "The Best Eyelash Glues",
+        "mobile_content": "Mikayla Hawkinson",
+        "content": "Mikayla Hawkinson",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/Asset_14_520x500_850acc4f-abbf-4f5f-adf8-e5eef39fbdb7.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/Asset_14_520x500_850acc4f-abbf-4f5f-adf8-e5eef39fbdb7.webp",
+        "desktop_height": 400,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 79,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "center",
+        "display_state": "all"
+      }
+    },
+    "16517200160e7a3616": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "There are many lash glues and adhesives on the market. Some are created for daily wear or special occasions while others are made for permanent extension use. As the beauty industry has become more aware and exposed to the product ingredients and how they can affect your skin, eyes and health many bonding agents and lash glues have become unsafe for application around the eye area. Lashify, the award-winning patented DIY lash system, has found a way to apply lashes for up to 10 days without the harsh and harmful chemicals or ingredients found in traditional lash adhesives.<br><br>“Formulated and innovated by the Lashify Labs, our patented formulas are flexible and nourishing, exclusively designed to hold Gossamer lashes while protecting the integrity of your natural lash.” lashify.com",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651720056deadbbea": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "What is Whisper Light™ Bond?",
+        "section-large-heading": "",
+        "description": "Whisper Light is an exclusive bond formulated by Lashify to apply their system of lashes. Lashify’s flexible, cushioned bond is specifically formulated to help keep gossamer lashes applied under the eye for up to 7 days. Whisper Light can be brushed through the lashes with the micro mascara wand or can be placed with small dabs on the root of the natural lash with the precision tip.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651720102be7b995a": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/whisper-light-dual-bond-cropped.webp",
+        "shop-now": "Shop Now",
+        "shopNow_link": "https:\/\/lashify.com\/products\/whisper-light-dual-sided-bond-with-mixed-tip"
+      }
+    },
+    "165172016300f5a20e": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Whisper Light featured ingredients",
+        "section-large-heading": "",
+        "description": "<br><strong>Lavandula oil<\/strong> <br>\nLavandula angustifolia is what many people in the aromatherapy industry refer to as “true” or pure lavender. Lavender essential oil is one of the most popular and versatile essential oils used in aromatherapy. Distilled from the plant Lavandula angustifolia, the oil promotes relaxation and is believed to treat anxiety, fungal infections, allergies, depression, insomnia, eczema, nausea, and menstrual cramps.\n\n<br><br><strong>Biotin<\/strong><br>\nBiotin is a crucial nutrient, It  helps keep your skin, hair, eyes, liver, and nervous system healthy. Biotin, also known as vitamin B7, stimulates keratin production in hair and can increase the rate of follicle growth.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "165172036818aac6ee": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "What is Bondage with Charcoal Flex?",
+        "section-large-heading": "",
+        "description": "Bondage with Charcoal Flex is our stronger holding bond with a more liquid-like consistency but can give longevity for up to 10 days of wear with a set of the Lashify gossamers.  <br><br>“Bondage™ is the answer to long wear and flexible hold while keeping your lashes healthy and hygienic. Our patented Charcoflex™ formula is designed to withstand heat, bacteria, and absorb excess moisture. Our formula also contains biotin to nourish the natural lashes while wearing our Gossamers for multiple days.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651720415452cdb85": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/bondage-extra-strength-cropped.webp",
+        "shop-now": "Shop Now",
+        "shopNow_link": "https:\/\/lashify.com\/products\/bondage%20"
+      }
+    },
+    "1651720507ba8dd6fe": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Harsh Chemicals found in other Lash glues",
+        "section-large-heading": "",
+        "description": "Whisper Light Bond and Bondage with Charcoal Flex are safe for sensitive eyes and are formulated without the harsh chemicals often found in traditional lash extension glues. Many traditional glues contain cyanoacrylates and formaldehyde which can cause eye irritation and allergic reactions.<br><br>Cyanoacrylate glue is the industrial name for what is commonly known as “Crazy Glue” or “Super Glue”. In fact, the term cyanoacrylate glue generally describes quick-bonding super glues. They can be used to combine anything from metal to plastic and even human skin. The main ingredient in cyanoacrylate glue is cyanoacrylate, which is an acrylic monomer that transforms to a plastic state after curing. hotmelt.com & dictionary.com<br><br>Formaldehyde is a potent, colorless gas that is commonly used in hospitals, medical laboratories, dental offices, and pediatric practices as a preservative, sterilizer, and disinfectant. Formaldehyde is a sensitizing agent that can cause an immune system response upon initial exposure. It is also a cancer hazard. Acute exposure is highly irritating to the eyes, nose, and throat and can make anyone exposed cough and wheeze. osha.gov",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165172055444f7a8a5": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "The Lashify Control Kit",
+        "section-large-heading": "",
+        "description": "When you invest in a Control Kit you receive everything needed to properly apply the Lashify system. What's included in a Lashify Control Kit:<br><br>1. Double Sided Whisper Light Bond. 1 side is a black formula with a micro mascara wand, the other is a white formula that dries down clear with a aubex tip for precision.<br><br>2. V2, patented, handmade Fuse Control Wand for application and fusing of the gossamer lashes.<br><br>3. Glass our water resistant seal. This is the last step in your application process and help water bead off the lashes during water activities and showering.<br><br>4. Two cartridges of our gossamers in 12 mm and 14 mm lengths. You get your choice of three different styles A, B or C.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651720632b85bda40": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/lashifyr-control-kit-kit-lashify-black-amplify-most-natural-634966_1_480x480_b73e902b-aaab-4073-872b-019e454c90ec.webp",
+        "shop-now": "Shop Now",
+        "shopNow_link": "https:\/\/lashify.com\/products\/lashify-control-kit"
+      }
+    },
+    "16517206804fbc432c": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Lash styles you can choose from in the Control Kit:",
+        "section-large-heading": "",
+        "description": "A stands for Amplify. Our “A” lash style is the most natural of all our gossamers. It has the thinnest fiber and least amount of curl. <br><br>\n“B” stands for Bold. Our B lash style has a thicker fiber very similar to two coats of mascara but no clumps here! It has a soft curl that gives a bold yet soft look. \n<br><br>\n“C” stands for Curl. Our C lash style has a thinner fiber very similar to the A but a much stronger curl.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16517207454800d240": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/Core-1.webp",
+        "shop-now": "Shop Now",
+        "shopNow_link": "https:\/\/lashify.com\/collections\/core-collection"
+      }
+    },
+    "16517208090650c27d": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Lashify lash application allows for natural lash growth",
+        "section-large-heading": "",
+        "description": "Not only are our bonds safe for sensitive eyes but our application process allows for natural lash growth and breathability of your lashes. When applying the gossamers make sure to place them under the eye curve facing you 1-2 mm away from the water line. This allows for the root of the natural lash to stay exposed and grow without damage to the exposed lash or follicle.\n<br><br>\nLashify is an amazing at home DIY system that helps you feel your best, look fresh and awake and take control of your lash styles and looks. This innovative and patented system allows you to wear the gossamer lashes for 5-7 days of wear on average with many users experiencing up to 10 days of wear with our extra strength bonds.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16517199295f65b3c4",
+    "16517200160e7a3616",
+    "1651720056deadbbea",
+    "1651720102be7b995a",
+    "165172016300f5a20e",
+    "165172036818aac6ee",
+    "1651720415452cdb85",
+    "1651720507ba8dd6fe",
+    "165172055444f7a8a5",
+    "1651720632b85bda40",
+    "16517206804fbc432c",
+    "16517207454800d240",
+    "16517208090650c27d"
+  ]
+}
