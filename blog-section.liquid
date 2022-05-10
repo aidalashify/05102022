@@ -1,0 +1,78 @@
+{% for block in section.blocks %}
+<div class="blog__cta">
+  <div class="blog__cta__img-container--mobile">
+      <img class="blog__cta__img blog__cta__img--mobile" src="{% assign shopify_cdn_url =  block.settings.image_mobile | img_url: 'master'  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="">
+  </div>
+
+  <div class="blog__cta__content">
+    <span class="blog__cta__lead">
+      {{ block.settings.lead }}
+    </span>
+    <h2 class="title-h2 blog__cta__title">
+      {{ block.settings.title }}
+    </h2>
+    <p class="blog__cta__text">
+      {{ block.settings.text }}
+    </p>
+    <a class="button blog__cta__btn" href="{{ block.settings.link_url }}">
+      {{ block.settings.link_label }}
+    </a>
+  </div>
+
+  <div class="blog__cta__img-container">
+   <img class="blog__cta__img blog__cta__img--desktop" src="{% assign shopify_cdn_url =  block.settings.image_desktop | img_url: 'master'  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="">
+  </div>
+</div>
+{% endfor %}
+
+{% schema %}
+{
+  "name": "blog Sections",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "blog section",
+      "type": "blog-section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Image for desktop",
+          "info": "1130px x 1400px recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image for mobile",
+          "info": "548px x 580px recommended"
+        },
+        {
+          "type": "text",
+          "id": "lead",
+          "label": "Lead"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
+        },
+        {
+          "type": "text",
+          "id": "link_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Button URL"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
