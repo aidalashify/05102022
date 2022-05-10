@@ -1,0 +1,323 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The 6 Best Eyelash Looks for Almond Eyes",
+        "headline": "The 6 Best Eyelash Looks for Almond Eyes",
+        "mobile_content": "By Ana Blount",
+        "content": "By Ana Blount",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/ALMOND_COVER_599x_a7341ebb-460c-440b-a567-7086047577fd.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/ALMOND_COVER_599x_a7341ebb-460c-440b-a567-7086047577fd.webp",
+        "desktop_height": 612,
+        "mobile_height": 400,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 74,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "1652115670fcc93a99": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "What are the best lash looks for my eye shape?",
+        "section-large-heading": "",
+        "description": "The “almond” shaped eye is one of the most universal and easiest eye shapes to apply makeup and eyelashes to. Because of how common it is, the Almond eye shape usually comes with a secondary eye shape trait. \n<br><br>\nThese secondary eye shapes are:\n<br>\n1. Wide set Almond\n<br>\n2. Upturned Almond\n<br>\n3. Downturned Almond\n<br>\n4. Close Set Almond\n<br>\n<br>\n\n\nWe’ll explore the most complementary lash maps for your individual eye shape, and also talk about what may not work for your eyes as well.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1652115772d93429dd": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Wide Set Almond",
+        "section-large-heading": "",
+        "description": "A wide set eye leaves a lot of space in the center of the face, creating a long vertical facial appearance. The issue presented here is, you can’t really use long inner corner lashes, it would definitely not be complementary to any eye shape! This eye placement is going to use a curly lash in a medium length all the way across the eye to bring shadow not only to the inner part of the eye, but to the entire eyelid. An example of this would be 12mm, extra curly straight across. You can add a small amount of 8mm on the inner corner if the medium length is too much or uncomfortable, but you would use half the amount of short lash typically used on most lash maps. A rounded lash map with a strong jump to a long center Can also look great. You would use a small, medium\/large, and large lash size, followed by medium\/large and small. The majority of this look will be long center lashes that extended into your inner and outer corners more than a typical rounded lash map would. This will create the inner corner shadows that help bring the eyes in more, creating a more centered eye spacing.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165212186258e2f496": {
+      "type": "blog-img",
+      "blocks": {
+        "7aeb1543-2783-4223-b49d-65c3808dd81f": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALMOND_EYE_BLOG-37-c12_c12_c14_c14_c14_c12.webp",
+            "title": "Suggested Lash Map:",
+            "span": "C.12, C.14, C.14, C.14, C.14, C.12",
+            "body-text": "",
+            "ig": "",
+            "product": ""
+          }
+        },
+        "e06e1279-258e-45fc-8edb-98ee404bd855": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALMOND_EYE_BLOG-39-c10_c12_c12_c14_c14_c12.webp",
+            "title": "Suggested Lash Map:",
+            "span": "C.10, C.12, C.12, C.14, C.14, C.12",
+            "body-text": "",
+            "ig": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "7aeb1543-2783-4223-b49d-65c3808dd81f",
+        "e06e1279-258e-45fc-8edb-98ee404bd855"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652122920d2189916": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Upturned Almond",
+        "section-large-heading": "",
+        "description": "The Upturned almond eye has a little less restrictions on what kind of lashes can be worn. You don’t really have to worry about droopy eyes, making the eye shape accidentally smaller, or any of the other typical things that can happen when applying the wrong lash style. One thing that you might want to look out for however. is too much curl on the outer ends of your eye. The reason being is that when you already have an eye shape that goes up, you may not want to further bring that shape higher by using the illusion wearing a tight curl brings to lift. \n<br><br>\nAchieving a winged eye style with your type of eye shape requires less curl, and more length on the outer corners of your eyes. You can pair that with a curlier center and\/or inner portion of the eye to increase the lift in these areas, or you can go all the way across with a lash style that Has less to moderate curl. You are free to choose lengths that you feel compliment your eyes as you wish.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1652128329b8259140": {
+      "type": "blog-img-center",
+      "blocks": {
+        "b18b668b-5789-426f-93d3-64958a31884c": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALMOND_EYE_BLOG-38-a12_a12_a12_a14_a14_a16.webp",
+            "title": "Suggested Lash Map:",
+            "span": "A.12, A.12, A.12, A.14, A.14, A.16",
+            "body-text": "",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "b18b668b-5789-426f-93d3-64958a31884c"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "165212470680e4f122": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Downturned Almond",
+        "section-large-heading": "",
+        "description": "This eye shape has a good amount of lid space, which allows for a fair amount of curl and length to be worn. Almond eye shapes typically gravitate towards a wing shaped lash, however if your eye is Downturned, be careful! A true wing (short on the inner corner, long on the outer corner,) can make your eyes even more Downturned and droopy.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16521285013afa147d": {
+      "type": "blog-img-center",
+      "blocks": {
+        "669ecdd5-4cf5-46cc-b9ec-3aca90e89893": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALMOND_EYE_BLOG-40-d10_d12_d14_d14_d16_d18.webp",
+            "title": "Suggested Lash Map:",
+            "span": "D.10, D.12, D.14, D.14, D.16, D.18",
+            "body-text": "You can definitely still achieve a wing, however you’ll want to use a lash map that starts short on the inner corner, medium length in the center, a couple of long lashes towards the end, and finally a medium lash at the end. This shape is called the “natural,” lash map, and its excellent for lifting a downward shaped eye. <br><br>Another great eye shape for you is a rounded lash map, where the lashes go small on both the inner and outer corners, then medium, and finally long in the center. This lash map really opens up the eye and gives you a lovely doe-eye effect!",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "669ecdd5-4cf5-46cc-b9ec-3aca90e89893"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "165212866470ad9275": {
+      "type": "blog-img-center",
+      "blocks": {
+        "f8eb04dc-9677-414c-9d3c-7ab2175fd0cc": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALMOND_EYE_BLOG-42-c12_f12_f14_e15_e16_e15.webp",
+            "title": "SUGGESTED LASH MAP:",
+            "span": "C.12, F.12, F.14, E.15, E.16, E.15",
+            "body-text": "",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "f8eb04dc-9677-414c-9d3c-7ab2175fd0cc"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "165212495545a2fc4b": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Close Set Almond",
+        "section-large-heading": "",
+        "description": "Opposite of the wide set eye, a pair of close set eyes highly benefit from length on the outer corners of the eyes, followed by very short inner lashes. The longer the lash, or stronger the curl, the more shadows are cast onto the face. Long ended lashes elongate your eyes, while short inner lashes take away focus from the center of your face. The combination helps to create a more proportionate facial structure by taking away from the bridge of the nose and adding to the outer sides of your face.\n\n<br><br>\nIf you prefer a more rounded lash look, you will again want to focus on extra short inner corner lashes, gradually going up in size with the longest placed in the center. To finish the look, use medium to short outer corners that are longer than the inner corner.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1652128766f9df6f53": {
+      "type": "blog-img-center",
+      "blocks": {
+        "90673f6f-df6b-440d-804f-b9043d2dc73d": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ALMOND_EYE_BLOG-41-b12_b12_b14_fx14_fx16_fx18.webp",
+            "title": "Suggested Lash Map:",
+            "span": "B.12, B.12, B.14, FX14, FX.16, FX.18",
+            "body-text": "And there you have it! These are the best lash maps for someone with Almond eyes!",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "90673f6f-df6b-440d-804f-b9043d2dc73d"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652137522c2abc049": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "<strong>Not too sure if you have a Almond eye shape? No worries, head over to our blog post on The Best Eyelashes For Any Eye Shape to figure out what shape best describes your eyes. <br><br>Find out what others are saying about their Lashify experience and the Lash Maps they're creating <em style=\"text-decoration:underline;\"> on the Lashify Life Facebook group! <\/em><br><br>Make sure to post and tag @lashify if you try out one of these fun lash maps! 🖤 <\/strong>",
+        "view-btn-link": "",
+        "view-btn": "Lashify LIfe Facebook",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16521261379728864a": {
+      "type": "blog-img",
+      "blocks": {
+        "5eb8977a-6f34-4780-8705-e8c317b08ab0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR-CLIENTS_RamonaT.webp",
+            "title": "",
+            "span": "",
+            "body-text": "",
+            "ig": "",
+            "product": ""
+          }
+        },
+        "723c7d1c-e69e-4b4d-90fe-c3b8b1a3be63": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR-CLIENTS_SandyG.webp",
+            "title": "",
+            "span": "",
+            "body-text": "",
+            "ig": "",
+            "product": ""
+          }
+        },
+        "69d12852-f4c4-449e-b73a-95619e5d9036": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR-CLIENTS_CamD.webp",
+            "title": "",
+            "span": "",
+            "body-text": "",
+            "ig": "",
+            "product": ""
+          }
+        },
+        "3fb36e21-ead4-4147-888a-a0006b1e7877": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OUR-CLIENTS_Tyler.webp",
+            "title": "",
+            "span": "",
+            "body-text": "",
+            "ig": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "5eb8977a-6f34-4780-8705-e8c317b08ab0",
+        "723c7d1c-e69e-4b4d-90fe-c3b8b1a3be63",
+        "69d12852-f4c4-449e-b73a-95619e5d9036",
+        "3fb36e21-ead4-4147-888a-a0006b1e7877"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652115670fcc93a99",
+    "1652115772d93429dd",
+    "165212186258e2f496",
+    "1652122920d2189916",
+    "1652128329b8259140",
+    "165212470680e4f122",
+    "16521285013afa147d",
+    "165212866470ad9275",
+    "165212495545a2fc4b",
+    "1652128766f9df6f53",
+    "1652137522c2abc049",
+    "16521261379728864a"
+  ]
+}
