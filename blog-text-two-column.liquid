@@ -1,0 +1,164 @@
+
+<main>
+  
+  <h1 class="blog-2-header header_newlines">
+    {{ section.settings.custom_text_header}}
+  </h1>
+
+  
+  {{ header_newlines | newline_to_br }}
+
+
+<p class="blog-2_header">{{ section.settings.custom_text_span}}</p>
+
+<div class="custom-text-section">
+  
+
+  <div class="blog-2-column-left">
+    <h2 class="blog-2-h1"> {{ section.settings.custom_text_title-left }} </h2>
+    <div>{{ section.settings.custom_text_body-left }}</div>
+  </div>
+
+  
+ 
+    <div class="blog-2-column-right">
+      <h2 class="blog-2-h1"> {{ section.settings.custom_text_title-right }} </h2>
+    <div>{{ section.settings.custom_text_body-right }}</div>
+    </div>
+  
+  <br style="clear:both;" />
+  
+ <!-- <hr style="border-color:#E6E6E6;  height: 0.5px!important;"/> -->
+
+  
+</div>
+
+
+</main>
+
+<style>
+  main {
+   font-family: inherit;
+   }
+
+      @font-face {
+      font-family: 'wide';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/GraphikWide-Regular.woff2?v=1627450731);
+    }
+
+    @font-face {
+      font-family: 'Didot Bold';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/Didot_LT_Std_Bold.otf?v=1650562835);
+    }
+
+
+.blog-2-header {
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+       font-family: 'Didot Bold';
+      font-size: 80px;
+      text-transform: none;
+    }
+
+.custom-text-section {
+  max-width: 1000px;
+  padding-top: 20px;
+  margin: 0 auto;
+
+    }
+
+    .blog-2_header {
+      font-size: 14PX;
+      text-align: center;
+      margin: 0 auto;
+      
+    }
+  .blog-2-h1 {
+  font-family: 'Didot Bold';
+  }
+    .blog-2-column-left {
+        width:48%;
+        float:left;
+        padding-top: 0;
+    }
+
+    .blog-2-column-right {
+        width:48%;
+        float:right;
+        padding-top: 0;
+    }
+
+
+
+    @media only screen and (max-width: 767px){
+        .one-half-column-left, .one-half-column-right, 
+        .one-third-column, .one-third-column-last {
+        float:none;
+        width:100%;
+        margin-right:0;
+        padding: 20px!important;
+        }
+    .blog-2-header {
+          font-size: 32px !important;
+          font-weight: bold;
+          
+        }
+      hr {
+        display: none;
+      }
+      
+    }
+
+</style>
+
+{% schema %}
+  {
+    "name": "blog text two column",
+    "settings": [
+{
+        "id": "custom_text_header",
+        "type": "text",
+        "label": "main heading",
+        "default": "Title"
+      },
+{
+        "id": "custom_text_span",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      },
+      {
+        "id": "custom_text_title-left",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-left",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+   {
+        "id": "custom_text_title-right",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-right",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      }
+    ],
+ "presets": [
+      {
+      "name": "blog text two column",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+  }
+{% endschema %}
