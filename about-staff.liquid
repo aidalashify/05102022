@@ -1,0 +1,245 @@
+<div class="about__us">
+  <h2 class="title-h2 about__us__title">
+    {{ section.settings.title }}
+  </h2>
+  <div class="about__us__grid">
+    {%- for block in section.blocks -%}
+      <div class="about__person">
+        <img class="about__person__img" src="{% assign shopify_cdn_url =  block.settings.image | img_url: 'master'  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="">
+        <div class="about__person__header">
+          <h3 class="title-h4 about__person__name">
+            {{ block.settings.title }}
+          </h3>
+          {%- if block.settings.ig != blank -%}
+            <a class="about__person__ig" href="{{ block.settings.ig }}" target="_blank">
+              <img src="{% assign shopify_cdn_url =  'instagram.svg' | asset_url  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="Instagram" style="width:24px; height:24px;">
+            </a>
+          {%- endif -%}
+        </div>
+        <span class="title-h5 about__person__position">
+          {{ block.settings.position }}
+        </span>
+        <p class="text about__person__quote">
+          {{ block.settings.quote }}
+        </p>
+        {%- if block.settings.favourite != blank -%}
+          {% assign favourite = all_products[block.settings.favourite] %}
+          <a class="about__person__link link" href="{{ favourite.url }}" target="__blank">
+              {% assign cta_title = block.settings.title | split: " " | first %}
+            {{ cta_title }}'s favorite product
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<style>
+  .about__us {
+	background-color: #000;
+	padding-top: 90px;
+}
+ .about__person__link  {
+  font-family:'Graphik Regular';
+   color: white!important;
+  }
+@media (max-width: 798px) {
+	.about__us {
+		padding-bottom: 45px;
+		padding-top: 40px;
+	}
+}
+
+.about__us__title {
+	color: #fff;
+	margin-bottom: 70px;
+	margin-top: 0;
+  	text-align: center;
+}
+@media (max-width: 798px) {
+	.about__us__title {
+		margin-bottom: 35px;
+	}
+}
+
+.about__us__grid {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 1500px;
+	padding: 0 45px;
+}
+@media (max-width: 798px) {
+	.about__us__grid {
+		display: block;
+		padding: 0 20px;
+	}
+}
+
+.about__person {
+	color: #fff;
+	margin-bottom: 115px;
+	padding: 0 18px;
+	width: 33%;
+}
+@media (max-width: 798px) {
+	.about__person {
+		margin-bottom: 35px;
+		padding: 0;
+		width: 100%;
+	}
+	.about__person:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.about__person__img {
+	height: auto;
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+@media (max-width: 798px) {
+	.about__person__img {
+		margin-bottom: 14px;
+	}
+}
+.about__person__header {
+	-ms-flex-align: center;
+	align-items: center;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.title-h4 {
+	font-family:'Graphik Wide Bold';
+    font-size: 20px;
+    line-height: 22px;
+	letter-spacing: 1px;
+}
+@media (max-width: 798px) {
+	.title-h4 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+.about__person__name {
+	color: #fff;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.title-h5 {
+	font-family:'Graphik Regular';
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: -1px;
+}
+@media (max-width: 798px) {
+	.title-h5 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+.about__person__position {
+	color: #fff;
+	display: block;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+@media (max-width: 798px) {
+	.about__person__position {
+		margin-bottom: 1px;
+	}
+}
+.about__person__quote {
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+@media (max-width: 798px) {
+	.about__person__quote {
+		margin-bottom: 20px;
+	}
+}
+
+.about__person__link {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 5px !important;
+}
+
+.link,
+.link--contrast,
+.link--white {
+	border-bottom: 2px solid #fff !important;
+	padding-bottom: 5px !important;
+}
+.link--white {
+	color: #fff !important;
+}
+</style>
+
+{% schema %}
+{
+  "name": "About staff",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "staff",
+      "name": "Staff",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Photo",
+          "info": "824px x 824px recommended"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "position",
+          "label": "Position"
+        },
+        {
+          "type": "text",
+          "id": "quote",
+          "label": "Quote"
+        },
+        {
+          "type": "text",
+          "id": "ig",
+          "label": "Instagram link",
+          "info": "Optional. Must be full Instagram URL"
+        },
+        {
+          "type": "product",
+          "id": "favourite",
+          "label": "Favourite lash"
+        }
+      ]
+    }
+  ]
+,
+ "presets": [
+      {
+      "name": "about staff",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+}
+{% endschema %}
