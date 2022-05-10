@@ -1,0 +1,170 @@
+
+
+<section class="main-section ">
+
+  
+  {{ header_newlines | newline_to_br }}
+
+
+<div class="about-column-section">
+  
+  
+
+   
+    <div class="text-left about-column">
+        <p class="about_span_header">{{ section.settings.custom_text_span1}}</p>
+        <h2 class="title-text"> {{ section.settings.custom_text_title-first }} </h2>
+        <div class="body-text">{{ section.settings.custom_text_body-first }}</div>
+    </div>
+  
+    
+       <div class="img-right about-column">
+        {{ section.settings.column_image1 | img_url: '' | img_tag }}
+       </div>
+
+    
+    
+       <div class="img-left about-column">
+        {{ section.settings.column_image2 | img_url: '' | img_tag }}
+       </div>
+ 
+    
+      <div class="text-right about-column">
+        <p class="about_span_header">{{ section.settings.custom_text_span2}}</p>
+        <h2 class="title-text"> {{ section.settings.custom_text_title-second }} </h2>
+        <div class="body-text">{{ section.settings.custom_text_body-second }}</div>
+    
+    
+  </div>
+
+  <br style="clear:both;" />
+
+  
+</div>
+
+
+</section>
+
+
+
+<style>
+
+    .main-section {
+  font-family: inherit;
+  background-color: black;
+  color: white;
+   }
+  
+  .about-column-section {
+ max-width: 1340px;
+      display: flex;
+  flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .about-column {
+  flex: 50%;
+  padding: 20px;
+}
+
+  
+  
+  .about_span_header {
+    font-family: inherit!important;
+  font-size: 18px;
+   font-weight:500;
+    line-height: 19.8px;
+  }
+
+  .title-text {
+ font-family: 'Graphik Wide Bold';
+  font-size: 32px;
+   font-weight:700;
+    line-height: 38.4px;
+}
+
+  .img-left, .img-right {
+  justify-content: center;
+    padding-top: 2%;
+  }
+
+  
+  @media only screen and (max-width: 767px) {
+    .about-column{ 
+    flex: 100%;
+    }
+      .img-left,.img-right {
+   float:none;
+        width:100%;
+  }
+    
+       .reverse-on-mobile  { 
+        flex-direction: column-reverse!important; 
+      } 
+  }
+
+
+</style>
+
+
+{% schema %}
+  {
+    "name": "about two column",
+    "settings": [
+{
+        "id": "custom_text_span1",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      },
+      {
+        "id": "custom_text_title-first",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-first",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image1",
+        "type": "image_picker",
+        "label": "Image"
+      },
+{
+        "id": "custom_text_span2",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      },
+ {
+        "id": "custom_text_title-second",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-second",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image2",
+        "type": "image_picker",
+        "label": "Image"
+      }
+  
+    ],
+ "presets": [
+      {
+      "name": "about two column",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+  }
+{% endschema %}
