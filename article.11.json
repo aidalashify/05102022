@@ -1,0 +1,365 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The 6 Best Eyelash Looks for Upturned Eyes",
+        "headline": "The 6 Best Eyelash Looks for Upturned Eyes",
+        "mobile_content": "By Ana Blount",
+        "content": "By Ana Blount",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/UPTURNED_COVER_520x500_0811dbc8-4c94-4da8-b864-84781ea2c68c.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/UPTURNED_COVER_520x500_0811dbc8-4c94-4da8-b864-84781ea2c68c.webp",
+        "desktop_height": 612,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 69,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "1651778258d988f73e": {
+      "type": "two-column",
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "",
+        "custom_text_body-left": "<p>If you have an Upturned eye, you’re in luck! We’ve got all the tips and tricks to help you create the most flattering lash maps with ease. But first, let’s explore what it means to have an upturned eyes.<\/p><p><\/p><p>The Upturned eye is typically almond shaped, but it can also be deep set, more on the rounded side, or even hooded\/monolid in shape. The term “Upturned” is simply a description of the <\/p>",
+        "custom_text_title-right": "",
+        "custom_text_body-right": "<p>positioning of the eyes, so various shapes can be considered upturned.  The ends of an upturned eye slant upwards, which creates a great facial lifting effect, plus, it can also assist in emphasizing cheekbones! Typically, this type of eye can benefit from many lash maps, however the following styles are some of the most complementary lash looks you can wear. <\/p>"
+      }
+    },
+    "1651777722f82b51f0": {
+      "type": "blog-text",
+      "disabled": true,
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "If you have an Upturned eye, you’re in luck! We’ve got all the tips and tricks to help you create the most flattering lash maps with ease. But first, let’s explore what it means to have an upturned eyes.\n<br><br>\nThe Upturned eye is typically almond shaped, but it can also be deep set, more on the rounded side, or even hooded\/monolid in shape. The term “Upturned” is simply a description of the positioning of the eyes, so various shapes can be considered upturned. The ends of an upturned eye slant upwards, which creates a great facial lifting effect, plus, it can also assist in emphasizing cheekbones! \n\n<br><br>\n\nTypically, this type of eye can benefit from many lash maps, however the following styles are some of the most complementary lash looks you can wear.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16517777798c798691": {
+      "type": "blog-text",
+      "disabled": true,
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "1. The “Natural” Lash",
+        "section-large-heading": "",
+        "description": "A natural lash map is a map in which the lashes start long on the inner corner, grow longer towards the center, then right before the eye ends, go back to short. It’s not quite a rounded eye, because the shape still looks longer towards the middle and outer ends, but instead of being the longest length on the outer corner like a winged lash, this style tapers a bit at the end to mimic how our natural lashes grow. \n\n<br><br>\n\n<strong>Suggested Lash Map:<\/strong>\n<br>\nB.10, B.10, B.12, B.12, B.14, B.12",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651777869dd2fd31f": {
+      "type": "two-column-imgLeft",
+      "disabled": true,
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-02-B10x2_-B12x2_-B14_-B12.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "165177791186235c62": {
+      "type": "blog-text",
+      "disabled": true,
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "2. The “Simple” Lash",
+        "section-large-heading": "",
+        "description": "A simple lash map is one that is the same length all the way across, minus the inner corner being a bit shorter than the rest of the lashes. Aside from the Natural lash, the Simple lash map is the most universally flattering way to wear lashes. The only thing you need to worry about with this lash map is the curl pattern, which will be discussed later on in the blog post. Depending on your other eye features, pick a length that is comfortable for you, and make sure the inner corner is not too long.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16517779392f50009f": {
+      "type": "blog-text",
+      "disabled": true,
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "3. The “Cat Eye” \/ Winged Lash",
+        "section-large-heading": "",
+        "description": "Upturned eyes naturally have that cat eye appearance; their eyes point upwards on the outer corners in a teardrop like shape. The more rounded your eye is, however, the less obvious your upturn is. The winged lash is a lash that starts short on the inner corners, and gradually grow in length, with the outer corners being the longest in size. If you have rounded eyes, you can still wear this style, however it is advised to not go too long on the outer corner. \n\n<br><br>\n<strong>Suggested Lash Map:<\/strong>\n<br>\nC.12, C.12, C.12, C.14, C.14, C.16",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651778412748e4f5c": {
+      "type": "two-column-imgRight",
+      "settings": {
+        "custom_text_title-left": "1. The “Natural” Lash",
+        "custom_text_body-left": "<p>A natural lash map is a map in which the lashes start long on the inner corner, grow longer towards the center, then right before the eye ends, go back to short. It’s not quite a rounded eye, because the shape still looks longer towards the middle and outer ends, but instead of being the longest length on the outer corner like a winged lash, this style tapers a bit at the end to mimic how our natural lashes grow. <\/p><p><\/p><p><strong>Suggested Lash Map:<\/strong><\/p><p>B.10, B.10, B.12, B.12, B.14, B.12<\/p>",
+        "column_image": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-02-B10x2_-B12x2_-B14_-B12.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651778541de8f7d9c": {
+      "type": "two-column-imgLeft",
+      "disabled": true,
+      "settings": {
+        "custom_text_title-right": "2. The “Simple” Lash",
+        "custom_text_body-right": "<p>A simple lash map is one that is the same length all the way across, minus the inner corner being a bit shorter than the rest of the lashes. Aside from the Natural lash, the Simple lash map is the most universally flattering way to wear lashes. The only thing you need to worry about with this lash map is the curl pattern, which will be discussed later on in the blog post. Depending on your other eye features, pick a length that is comfortable for you, and make sure the inner corner is not too long. <\/p><p><\/p><p><strong>Suggested Lash Map:<\/strong><\/p><p>B.8, D.10, B.12, D.14, B.14, D.12<\/p>",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651778023da3a589a": {
+      "type": "two-column-imgLeft",
+      "disabled": true,
+      "settings": {
+        "custom_text_title-right": "2. The “Simple” Lash",
+        "custom_text_body-right": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p>A simple lash map is one that is the same length all the way across, minus the inner corner being a bit shorter than the rest of the lashes. Aside from the Natural lash, the Simple lash map is the most universally flattering way to wear lashes. The only thing you need to worry about with this lash map is the curl pattern, which will be discussed later on in the blog post. Depending on your other eye features, pick a length that is comfortable for you, and make sure the inner corner is not too long. <\/p><p><\/p><p><strong>Suggested Lash Map:<\/strong><\/p><p>B.8, D.10, B.12, D.14, B.14, D.12<\/p>",
+        "column_image": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-05-b8_-d10_-b12_-d14_-b14_-d12_bd3f7bb3-6de6-4660-86cd-cf840a48a9d6.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651778608e401665e": {
+      "type": "two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "",
+        "custom_text_body-left": "",
+        "custom_text_title-right": "",
+        "custom_text_body-right": ""
+      }
+    },
+    "16517787121b1346eb": {
+      "type": "two-column-imgRight",
+      "settings": {
+        "custom_text_title-left": "2. The “Simple” Lash",
+        "custom_text_body-left": "<p>A simple lash map is one that is the same length all the way across, minus the inner corner being a bit shorter than the rest of the lashes. Aside from the Natural lash, the Simple lash map is the most universally flattering way to wear lashes. The only thing you need to worry about with this lash map is the curl pattern, which will be discussed later on in the blog post. Depending on your other eye features, pick a length that is comfortable for you, and make sure the inner corner is not too long. <\/p><p><\/p>",
+        "column_image": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-03-C12x3_-C14x2_-C16.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651779446549f4320": {
+      "type": "blog-text-two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "2. The “Simple” Lash",
+        "custom_text_body-left": "<p>A simple lash map is one that is the same length all the way across, minus the inner corner being a bit shorter than the rest of the lashes. Aside from the Natural lash, the Simple lash map is the most universally flattering way to wear lashes. The only thing you need to worry about with this lash map is the curl pattern, which will be discussed later on in the blog post. Depending on your other eye features, pick a length that is comfortable for you, and make sure the inner corner is not too long. <\/p>",
+        "custom_text_title-right": "3. The “Cat Eye” \/ Winged Lash",
+        "custom_text_body-right": "<p>Upturned eyes naturally have that cat eye appearance; their eyes point upwards on the outer corners in a teardrop like shape. The more rounded your eye is, however, the less obvious your upturn is. The winged lash is a lash that starts short on the inner corners, and gradually grow in length, with the outer corners being the longest in size. If you have rounded eyes, you can still wear this style, however it is advised to not go too long on the outer corner. <\/p>"
+      }
+    },
+    "16517800079930e10d": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "3. The “Cat Eye” \/ Winged Lash",
+        "section-large-heading": "",
+        "description": "Upturned eyes naturally have that cat eye appearance; their eyes point upwards on the outer corners in a teardrop like shape. The more rounded your eye is, however, the less obvious your upturn is. The winged lash is a lash that starts short on the inner corners, and gradually grow in length, with the outer corners being the longest in size. If you have rounded eyes, you can still wear this style, however it is advised to not go too long on the outer corner.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651779907e0f5ca38": {
+      "type": "four-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-first": "",
+        "custom_text_body-first": "",
+        "column_image1": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-03-C12x3_-C14x2_-C16_2.webp",
+        "custom_text_title-second": "",
+        "custom_text_body-second": "",
+        "column_image2": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-04-A10_-A12_-A14_-A16x2_-A18.webp",
+        "custom_text_title-third": "",
+        "custom_text_body-third": "",
+        "column_image3": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-06-F8_-F8_-F8_-F10_-F12_-F14_-F16.webp",
+        "custom_text_title-fourth": "",
+        "custom_text_body-fourth": "",
+        "column_image4": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-07-F8_-D10_-D10_-D12_-D14_-D16.webp"
+      }
+    },
+    "16517809948bd325ab": {
+      "type": "blog-four-column",
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-first": "",
+        "custom_text_body-first": "<p><strong>Suggested Lash Map:<\/strong><\/p><p>C.12, C.12, C.12, C.14, C.14, C.16<\/p>",
+        "column_image1": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-03-C12x3_-C14x2_-C16_2.webp",
+        "custom_text_title-second": "",
+        "custom_text_body-second": "<p><strong>Suggested Lash Map:<\/strong><\/p><p>A.10, A.12, A.14, A.16, A.16, A.18<\/p>",
+        "column_image2": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-04-A10_-A12_-A14_-A16x2_-A18.webp",
+        "custom_text_title-third": "",
+        "custom_text_body-third": "<p><strong>Suggested Lash Map:<\/strong><\/p><p>F.8, F.8, F.8, F.10, F.12, F.14, F.16<\/p>",
+        "column_image3": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-06-F8_-F8_-F8_-F10_-F12_-F14_-F16.webp",
+        "custom_text_title-fourth": "",
+        "custom_text_body-fourth": "<p><strong>Suggested Lash Map:<\/strong><\/p><p>F.8, D.10, D.10, D.12, D.14, D.16<\/p>",
+        "column_image4": "shopify:\/\/shop_images\/UPTURNED-EYE-BLOG-07-F8_-D10_-D10_-D12_-D14_-D16.webp"
+      }
+    },
+    "16518721662cf513f2": {
+      "type": "blog-text-two-column",
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "Curl Patterns",
+        "custom_text_body-left": "<p>Now let’s shift the focus on the type of curl you should wear. The lash styles listed above address the positioning of your eyes, and are a major part of what makes your lashes look incredible and complementary to your eyes. However, the right kind of curl to match the shape of your eyes can make even more of a difference in your look!<\/p>",
+        "custom_text_title-right": "",
+        "custom_text_body-right": "<p>While you don’t have to worry too much about creating a droopy lash, you can overdo the curl, especially on the outer ends, which makes for an overly dramatic emphasis on your eye position. Of course, ultimately it’s all about your preferences, so go with what you like best! <\/p>"
+      }
+    },
+    "1651872572600269a8": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "1. Light Curl",
+        "section-large-heading": "",
+        "description": "Light curl\/length focused lashes are great for a winged look, and your naturally upturned eye shape really does all the work when applying these. The outer corners do not have to be as long as you would wear with a curlier lash.\n<br>\n Going too long can actually create too much of a shadow under your eye, and this is the only way you’ll accidentally fall into the droopy eye zone!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165187266569edda21": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "2. Natural & Medium Curls",
+        "section-large-heading": "",
+        "description": "Natural and Medium curls are your best options for lashes. These options go with the flow of your already placed Lash map, and should not create any funny shadows or unappealing looks. If you have a hooded or monolid eye shape, the less curl, the better!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "165187269542a71a8b": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "3. Strong Curl",
+        "section-large-heading": "",
+        "description": "Strong curls can be a bit dangerous on the outer corner as stated above, but if you desire some serious curl, go for a natural lash map with the last 2 sections of your lashes being a softer curl, so as to not exaggerate the upturn. Very Hooded eyes should avoid a strong curl all together because unfortunately the curl will likely touch the eyelid and distort the lash look.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "165187274270ad9b73": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "4. Volume",
+        "section-large-heading": "",
+        "description": "Finally, let’s talk about Volume. When it comes to the amount of lash volume you wear, you have to consider where the lashes will cast a shadow the most. Start experimenting with volume when wearing a simple lash map, and go from there. You can always add more length to the ends, or just keep the volume towards the center if you prefer. Avoid wearing too much volume on the inner corners of the eye, as it will be too heavy and uncomfortable to wear. And lastly, always be mindful of what your natural lashes can handle. Going too heavy, too long, or too curly, even if it’s initially a desired look idea, can bring on issues like being uncomfortable, or un complementary to your overall look. If you ever need help with a lash map, we are here to help! As lash experts we are trained to see what would work best for all eye shapes, so reach out for some expert advice, and we’ll get you to the desired lash look you’ve always wanted.\n<br><br>\n\n<strong>\nNot too sure if you have an Upturned eye shape? No worries, head over to our blog post on The Best Eyelashes For Any Eye Shape to figure out what shape best describes your eyes.<\/strong> <br><br>\n\nFind out what others are saying about their Lashify experience and the Lash Maps they're creating on the<em> Lashify Life Facebook group! <\/em><br>\nMake sure to post and tag @lashify if you try out one of these fun lash maps! 🖤",
+        "view-btn-link": "https:\/\/www.facebook.com\/groups\/lashify",
+        "view-btn": "Lashify Life Facebook group",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651873564705c9f96": {
+      "type": "blog-four-column",
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-first": "",
+        "custom_text_body-first": "",
+        "column_image1": "shopify:\/\/shop_images\/OUR-CLIENTS_RamonaT.webp",
+        "custom_text_title-second": "",
+        "custom_text_body-second": "",
+        "column_image2": "shopify:\/\/shop_images\/OUR-CLIENTS_SandyG.webp",
+        "custom_text_title-third": "",
+        "custom_text_body-third": "",
+        "column_image3": "shopify:\/\/shop_images\/OUR-CLIENTS_CamD.webp",
+        "custom_text_title-fourth": "",
+        "custom_text_body-fourth": "",
+        "column_image4": "shopify:\/\/shop_images\/OUR-CLIENTS_Tyler.webp"
+      }
+    },
+    "16518736664b2599f8": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651778258d988f73e",
+    "1651777722f82b51f0",
+    "16517777798c798691",
+    "1651777869dd2fd31f",
+    "165177791186235c62",
+    "16517779392f50009f",
+    "1651778412748e4f5c",
+    "1651778541de8f7d9c",
+    "1651778023da3a589a",
+    "1651778608e401665e",
+    "16517787121b1346eb",
+    "1651779446549f4320",
+    "16517800079930e10d",
+    "1651779907e0f5ca38",
+    "16517809948bd325ab",
+    "16518721662cf513f2",
+    "1651872572600269a8",
+    "165187266569edda21",
+    "165187269542a71a8b",
+    "165187274270ad9b73",
+    "1651873564705c9f96",
+    "16518736664b2599f8"
+  ]
+}
