@@ -1,0 +1,212 @@
+<style>
+  * {
+  box-sizing: border-box;
+}
+   @font-face {
+          font-family: 'Graphik Wide Bold';
+          src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/GraphikWide-Bold.otf?v=1651538224);
+        }
+
+
+ .four-column-main {
+  padding-top: 100px!important; 
+   
+ }
+
+  .four-column-section {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+      }
+
+
+    .column {
+      flex: 25%;
+      padding-right: 10px!important;
+      padding-left: 10px!important;
+    }
+        
+
+
+.rule-text {
+font-size: 16px;
+  padding-bottom: 0px!important;
+  line-height:18px!important;
+}
+  
+.name-text {
+ font-family: 'Graphik Wide Bold';
+  font-size: 18px;
+   font-weight:700;
+line-height:18px!important;
+  padding-top:0!important;
+  margin-top: 0 !important;
+}
+
+
+    @media only screen and (max-width: 767px) {
+      
+       .column {
+    flex: 50%;
+    padding: 10px!important;
+       } 
+    }
+
+</style>
+
+<main class="four-column-main">
+  
+  <h1 class="title-left header_newlines">
+    {{ section.settings.custom_text_header}}
+  </h1>
+
+  
+  {{ header_newlines | newline_to_br }}
+
+
+<p class="custom_span_header">{{ section.settings.custom_text_span}}</p>
+
+<div class="four-column-section">
+  
+
+    <div class="first-column column">
+       <div class="img-column">
+        {{ section.settings.column_image1 | img_url: '' | img_tag }}
+       </div>
+        <div class="rule-text">{{ section.settings.custom_text_body-first }}</div>
+        <h2 class="name-text"> {{ section.settings.custom_text_title-first }} </h2>
+    </div>
+
+    <div class="second-column column">
+       <div class="img-column">
+        {{ section.settings.column_image2 | img_url: '' | img_tag }}
+       </div>
+       <div  class="rule-text">{{ section.settings.custom_text_body-second }}</div>
+       <h2 class="name-text"> {{ section.settings.custom_text_title-second }} </h2>
+    </div>
+  
+   <div class="third-column column">
+       <div class="img-column">
+        {{ section.settings.column_image3 | img_url: '' | img_tag }}
+       </div>
+      <div  class="rule-text">{{ section.settings.custom_text_body-third }}</div>
+     <h2 class="name-text"> {{ section.settings.custom_text_title-third }} </h2>
+    </div>
+  
+   <div class="fourth-column column">
+       <div class="img-column">
+        {{ section.settings.column_image4 | img_url: '' | img_tag }}
+       </div>
+      <div  class="rule-text">{{ section.settings.custom_text_body-fourth }}</div>
+      <h2 class="name-text"> {{ section.settings.custom_text_title-fourth }} </h2>
+    </div>
+  
+  
+  <br style="clear:both;" />
+  
+  
+</div>
+
+
+</main>
+
+
+
+
+{% schema %}
+  {
+    "name": "Blog Four Column",
+    "settings": [
+{
+        "id": "custom_text_header",
+        "type": "text",
+        "label": "main heading",
+        "default": "Title"
+      },
+{
+        "id": "custom_text_span",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      },
+      {
+        "id": "custom_text_title-first",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-first",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image1",
+        "type": "image_picker",
+        "label": "Image"
+      },
+
+ {
+        "id": "custom_text_title-second",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-second",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image2",
+        "type": "image_picker",
+        "label": "Image"
+      },
+
+ {
+        "id": "custom_text_title-third",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-third",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image3",
+        "type": "image_picker",
+        "label": "Image"
+      },
+{
+        "id": "custom_text_title-fourth",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-fourth",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image4",
+        "type": "image_picker",
+        "label": "Image"
+      }
+  
+    ],
+ "presets": [
+      {
+      "name": "Blog Four Column",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+  }
+{% endschema %}
