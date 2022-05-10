@@ -1,0 +1,376 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The 6 Best Eyelash Looks for Downturned Eyes",
+        "headline": "The 6 Best Eyelash Looks for Downturned Eyes",
+        "mobile_content": "GeriLyn Paguia",
+        "content": "GeriLyn Paguia",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/DOWNTURNED_COVER_520x500_56d50d28-e6ed-4777-ac02-538565472bef.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/DOWNTURNED_COVER_520x500_56d50d28-e6ed-4777-ac02-538565472bef.webp",
+        "desktop_height": 500,
+        "mobile_height": 500,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 73,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "165213161030c63e27": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "Marilyn Monroe, Katie Holmes, Charlize Theron, Anne Hathaway, Eva Green. What do all of these lovely ladies have in common? They all have downturned eyes. While those with downturned eyes may feel that they have an eye shape that is problematic or requires “fixing”, downturned eyes can be naturally alluring, mysterious, welcoming, and seductive.\n<br><br>\n\nWhen choosing lash looks for this eye shape, the only thing to avoid is adding too much weight to the outer corners of the eyes. This can cause the eye to look droopy or sleepy. Placement of the lashes can also make a difference. Placing the outer corners too low on the lash line can weigh down the look. Placing the outer corner lashes higher up, so that the fibers follow the upward angle of the lower lash line, helps to keep the whole look lifted. Other than that, adding lashes to downturned eyes instantly accentuates their beauty with the Lashify System!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16521342244b1ab066": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Lashify Control Kit",
+        "section-large-heading": "",
+        "description": "",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165213169435ab66e3": {
+      "type": "blog-img-center",
+      "blocks": {
+        "2970e43c-f983-4a60-9905-351f7a2060b2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lashifyr-control-kit-kit-lashify-black-amplify-most-natural-634966_1_480x480_1.webp",
+            "title": "",
+            "span": "",
+            "body-text": "",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "https:\/\/lashify.com\/products\/lashify-control-kit",
+            "center-btn": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "2970e43c-f983-4a60-9905-351f7a2060b2"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652135288420fbbf1": {
+      "type": "blog-title",
+      "settings": {
+        "custom_text_header": "6 Perfect Lash Maps for Downturned Eyes",
+        "custom_text_span": ""
+      }
+    },
+    "1652134281b4520593": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Natural",
+        "section-large-heading": "",
+        "description": "Curl Gossamers (Cs) are great for a fresh, light, eye-opening look. Because the Cs have some curl, they will keep the outer corners lifted, not droopy. They will also enhance the welcoming appearance of downturned eyes.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16521343323ee6ed7c": {
+      "type": "blog-img-center",
+      "blocks": {
+        "36d6b56f-ba42-4e31-9d14-0727e7ad571a": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Downturned_Lash_Maps_C10s___C12s.webp",
+            "title": "Suggested Lash Map:",
+            "span": "C.10, C.12, C.12, C.12, C.12, C.10. ",
+            "body-text": "",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "36d6b56f-ba42-4e31-9d14-0727e7ad571a"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652134384d0802310": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Natural Length",
+        "section-large-heading": "",
+        "description": "Our Amplify Gossamers are our most natural lash, and as you could probably tell, they tend to 'Amplify' what you've already got, giving you a \"No Makeup\" makeup look.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1652134433ceb1b646": {
+      "type": "blog-img-center",
+      "blocks": {
+        "67047c47-2391-49e7-aca0-5ea49ee31608": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Downturned_Lash_Map_As_faa80f2f-fc69-422e-a9ec-f9d9fb7d27ba.webp",
+            "title": "Suggested Lash Map:",
+            "span": "A8, A10, A12, A14, A16, A16, A12",
+            "body-text": "",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "67047c47-2391-49e7-aca0-5ea49ee31608"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652134511702239c4": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Soft Volume",
+        "section-large-heading": "",
+        "description": "Don’t be afraid of a little volume! Fluffy Gossamers (Fs) are the perfect style for achieving a transitional, soft volume look that gives a hint of Drama during the day and provides an easy, put-together look for the evening.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16521345674c4eaaf4": {
+      "type": "blog-img-center",
+      "blocks": {
+        "47caaa95-902b-4bbd-9fb6-3fece61fae01": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Downturned_Lash_Map_Ds_and_Fs_bb4ecd68-7397-41d6-91ef-f1d56f84b92b.webp",
+            "title": "Suggested Lash Map: ",
+            "span": "D12, D14, F18, F18, F18, D14",
+            "body-text": "Applying the longer lengths in the center of the eye will give a lovely doe-eyed, or round opened-eyed look!",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "47caaa95-902b-4bbd-9fb6-3fece61fae01"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652134810071575b5": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Hybrid Map",
+        "section-large-heading": "",
+        "description": "One of the best parts about using the Lashify system is the ability to customize lash maps to each eye. Combining Bold Gossamers (Bs), which have thicker fibers, and Curl Gossamers (Cs), which have thinner fibers, is a great way to create a hybrid lash extension look.  \n<br><br>\n\n<span style=\" font-family: Graphik Wide Bold;\">Suggested Lash Map:<\/span> <br>Start with a base of Cs: C.8, C.10, C.12, C.12, C.12, C.12 and brick stack Bs to create dimension with a second layer of Gossamers: B.10, B.12, B.14. B.14, B.14.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16521351462b5be3f1": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Wispy Doe-Eye",
+        "section-large-heading": "",
+        "description": "The Starburst Gossamer style features multiple fiber lengths, designed to give a super wispy look. A doe-eyed map using this style, along with our Bold Gossamers on the inner and outer corners, will create a fun and flirty lash look!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "165213534987f4cc77": {
+      "type": "blog-img-center",
+      "blocks": {
+        "ae46bbad-999c-49c2-9228-c35d621af872": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Downturned_Lash_Map_Bs_and_Ss_a4abe234-bd68-4391-9fe6-56b7ae8aebb4.webp",
+            "title": "Suggested Lash Map:",
+            "span": "B.10, S.12, S.14, S.16, S.14, B12.",
+            "body-text": "A lash map like this creates lift in the center of the eye, bringing downturned eyes straight into party mode!",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "ae46bbad-999c-49c2-9228-c35d621af872"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652135510c2d252a9": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Sultry Drama",
+        "section-large-heading": "",
+        "description": "Not much is needed to create a sultry look for downturned eyes, but we can certainly emphasize them! If we mix Bold, Drama, and Starbursts Gossamers, we can achieve a slightly dramatic effect that evokes Marilyn Monroe’s bedroom eyes vibe.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16521355327200e37d": {
+      "type": "blog-img-center",
+      "blocks": {
+        "bd5d0bff-bf73-468c-893c-813842ca3aed": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DownturnedLash_Map_Cs_and_Fs.webp",
+            "title": "Suggested Lash Map:",
+            "span": "C.10, D.12, D.12. D14, S.16. S.18 ",
+            "body-text": "This map features volume all the way, with some wispy curves just at the outer corners. Guaranteed to make you swoon!",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "",
+            "center-btn": ""
+          }
+        }
+      },
+      "block_order": [
+        "bd5d0bff-bf73-468c-893c-813842ca3aed"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652135618c65fda51": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Fox-Eye Volume",
+        "section-large-heading": "",
+        "description": "Creating a Volume look is as easy as 1, 2, 3 with the Lashify system. To create a balanced volume lash map for downturned eyes, try our Drama Gossamer Lashes all across the eye.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165213564156fe62a7": {
+      "type": "blog-img-center",
+      "blocks": {
+        "58f9e02a-3b56-40a6-9653-1e1914b08860": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Downturned_Lash_Map_Ds.webp",
+            "title": "Suggested Lash Map: ",
+            "span": "D.12, D14, D16, D14, D12",
+            "body-text": "This lash map will create volume and elongate the eye for a full, yet subtle look. Using a gradient of shorter lengths to longer lengths, then applying another short gossamer on the outer corner will create a sassy fox-eye look that will accentuate the mysterious quality of the downturned eye.",
+            "ig": "",
+            "product": "",
+            "center-btn-link": "https:\/\/www.facebook.com\/groups\/lashify",
+            "center-btn": "Lashify Life Facebook"
+          }
+        }
+      },
+      "block_order": [
+        "58f9e02a-3b56-40a6-9653-1e1914b08860"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1652137236757c3a01": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "<strong>Not too sure if you have a Downturned eye shape? No worries, head over to our blog post on The Best Eyelashes For Any Eye Shape to figure out what shape best describes your eyes. <br><br>Find out what others are saying about their Lashify experience and the Lash Maps they're creating <em style=\"text-decoration:underline;\"> on the Lashify Life Facebook group! <\/em><br><br>Make sure to post and tag @lashify if you try out one of these fun lash maps! 🖤 <\/strong>",
+        "view-btn-link": "https:\/\/www.facebook.com\/groups\/lashify",
+        "view-btn": "Lashify life facebook",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165213161030c63e27",
+    "16521342244b1ab066",
+    "165213169435ab66e3",
+    "1652135288420fbbf1",
+    "1652134281b4520593",
+    "16521343323ee6ed7c",
+    "1652134384d0802310",
+    "1652134433ceb1b646",
+    "1652134511702239c4",
+    "16521345674c4eaaf4",
+    "1652134810071575b5",
+    "16521351462b5be3f1",
+    "165213534987f4cc77",
+    "1652135510c2d252a9",
+    "16521355327200e37d",
+    "1652135618c65fda51",
+    "165213564156fe62a7",
+    "1652137236757c3a01"
+  ]
+}
