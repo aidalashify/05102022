@@ -1,0 +1,177 @@
+
+
+<section class="main-section-imgRight ">
+
+  
+  {{ header_newlines | newline_to_br }}
+
+
+<div class="about-imgRight-section">
+  
+
+   
+    <div class="text-column-imgRight about-column">
+        <p class="about_span_header">{{ section.settings.custom_text_span1}}</p>
+        <h2 class="title-text"> {{ section.settings.custom_text_title-first }} </h2>
+        <div class="body-text">{{ section.settings.custom_text_body-first }}</div>
+      
+       <a class="button about__btn" href="{{ section.settings.link_url }}" target="_blank">
+      {{ section.settings.link_label }}
+    </a>
+    </div>
+  
+    
+       <div class="img-right about-column">
+        {{ section.settings.column_image1 | img_url: '' | img_tag }}
+       </div>
+
+  
+
+  <br style="clear:both;" />
+
+  
+</div>
+
+
+</section>
+
+
+
+<style>
+
+    .main-section-imgRight {
+  font-family: inherit;
+  background-color: black;
+  color: white;
+   }
+  
+  .about-imgRight-section {
+ max-width: 1100px;
+       -ms-flex-align: center;
+	align-items: center;
+	display: -ms-flexbox;
+      display: flex;
+  flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.text-column-imgRight {
+text-align: left;
+}
+  .about-column {
+  flex: 50%;
+  padding: 25px;
+}
+
+  
+  
+  .about_span_header {
+    font-family: 'Graphik Wide';
+  	font-size: 14px;
+   	font-weight:500;
+    line-height: 19.8px;
+  }
+
+  .title-text {
+ font-family: 'Graphik Wide Bold';
+  font-size: 32px;
+   font-weight:700;
+    line-height: 38.4px;
+}
+
+  .img-left, .img-right {
+  justify-content: center;
+    padding-top: 2%;
+  }
+
+ 
+.about__btn.button--white,
+.button.about__btn {
+	line-height: normal;
+  	font-family: 'Graphik Regular';
+  	border: 1px solid transparent;
+  	color: white;
+  	font-size: 13px;
+  	justify-content: center;
+    -ms-flex-pack: center;
+    transition: all 0.2s linear;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+  	text-transform: uppercase;
+  	padding: 10px 20px 10px 20px;
+}
+  @media only screen and (max-width: 767px) {
+ 
+    .main-section-imgRight, .about-imgRight-section {
+     
+       flex-direction: column-reverse;  
+      
+    }
+    .about__cta__btn {
+		display: block;
+		width: 100%;
+	}
+  
+   .about-column{ 
+    flex: 100%;
+    }
+      .img-left,.img-right {
+   float:none;
+        width:100%;
+  }
+    
+      
+  }
+
+
+</style>
+
+
+{% schema %}
+  {
+    "name": "about img right",
+    "settings": [
+{
+        "id": "custom_text_span1",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      },
+      {
+        "id": "custom_text_title-first",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body-first",
+        "type": "richtext",
+        "label": "Add custom text below",
+        "default": "<p>Add your text here</p>"
+      },
+ {
+        "id": "column_image1",
+        "type": "image_picker",
+        "label": "Image"
+      },
+{
+          "type": "text",
+          "id": "link_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Button URL"
+        }
+  
+    ],
+ "presets": [
+      {
+      "name": "about img right",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+  }
+{% endschema %}
