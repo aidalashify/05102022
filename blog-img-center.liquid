@@ -1,0 +1,293 @@
+
+
+<div class="blog__img">
+  {%- if section.settings.title !=blank -%}
+  <h2 class="title-h2 blog__img__title">
+    {{ section.settings.title }}
+  </h2>
+  {%- endif -%}
+  <div class="blog__center__img">
+    {%- for block in section.blocks -%}
+      <div class="img__center">
+        <img class="img__center__img" src="{% assign shopify_cdn_url =  block.settings.image | img_url: 'master'  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="">
+        <div class="img__center__header">
+          <h3 class="title-h4 img__center__name">
+            {{ block.settings.title }}
+          </h3>
+          {%- if block.settings.ig != blank -%}
+            <a class="img__center__ig" href="{{ block.settings.ig }}" target="_blank">
+              <img src="{% assign shopify_cdn_url =  'instagram.svg' | asset_url  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="Instagram" style="width:24px; height:24px;">
+            </a>
+          {%- endif -%}
+        </div>
+        <span class="title-h5 img__center__span">
+          {{ block.settings.span }}
+        </span>
+        
+     
+        {%- if block.settings.favourite != blank -%}
+          {% assign favourite = all_products[block.settings.favourite] %}
+          <a class="img__center__link link" href="{{ favourite.url }}" target="_blank">
+              {% assign cta_title = block.settings.title | split: " " | first %}
+            {{ cta_title }}'s favorite product
+          </a>
+        {%- endif -%}
+        
+        {%- if block.settings.center-btn != blank -%}
+            <button class="center-btn">
+              <a class="btn-text" href="{{ block.settings.center-btn-link }}">{{ block.settings.center-btn }}</a>
+            </button>
+         {%- endif -%} 
+        
+      </div>
+    
+     <p class=" img__center__quote">
+          {{ block.settings.body-text }}
+        </p>
+    
+    
+    
+    {%- endfor -%}
+  </div>
+</div>
+
+<style>
+  .blog__img {
+	padding-top: 20px;
+}
+  
+ .img__center__link  {
+  font-family:'Graphik Regular';
+   color: black!important;
+  }
+  .img__center__quote{
+    max-width: 100%!important;
+  }
+@media (max-width: 798px) {
+	.blog__img {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+}
+
+.blog__img__title {
+	color: black;
+	margin-bottom: 70px;
+	margin-top: 0;
+  	text-align: center;
+}
+@media (max-width: 798px) {
+	.blog__img__title {
+		margin-bottom: 35px;
+	}
+}
+
+.blog__center__img {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 1024px;
+	
+}
+   .center-btn {
+   background-color: black;
+     margin: 0 auto;
+     display: block;
+  
+   }
+  .btn-text {
+    color: white;
+     padding: 5px 15px;
+     font-family: "Graphik Wide Bold";
+     font-size: 12px;
+   }
+@media (max-width: 798px) {
+	.blog__center__img {
+		display: block;
+		padding: 0 20px;
+	}
+
+}
+
+.img__center {
+	color: black;
+	margin: 0 auto;
+	padding: 0 18px;
+	max-width: 50%;
+}
+@media (max-width: 798px) {
+	.img__center {
+		margin-bottom: 20px;
+		padding: 0;
+		width: 100%;
+	}
+	.img__center:last-child {
+		margin-bottom: 0;
+	}
+  .img__center {
+  max-width: 100%;
+  height: auto;
+  }
+}
+
+.img__center {
+	height: auto;
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+@media (max-width: 798px) {
+	.img__center {
+		margin-bottom: 14px;
+	}
+}
+.img__center__header {
+	-ms-flex-align: center;
+	align-items: center;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.title-h4 {
+	font-family:'Graphik Wide Bold';
+    font-size: 20px;
+    line-height: 22px;
+	letter-spacing: 1px;
+}
+@media (max-width: 798px) {
+	.title-h4 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+.img__center__name {
+	color: black;
+	margin-bottom: 5px;
+	margin-top: 0;
+    font-size: 16px!important;
+}
+
+.title-h5 {
+	font-family:'Graphik Regular';
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: -1px;
+}
+@media (max-width: 798px) {
+	.title-h5 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+.img__center__span {
+	color: black;
+	display: block;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+@media (max-width: 798px) {
+	.img__center__span {
+		margin-bottom: 1px;
+	}
+}
+.img__center__quote {
+	color:black;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+@media (max-width: 798px) {
+	.img__center__quote {
+		margin-bottom: 20px;
+	}
+}
+
+.img__center__link {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 5px !important;
+}
+
+.link,
+.link--contrast,
+.link--white {
+	border-bottom: 2px solid #fff !important;
+	padding-bottom: 5px !important;
+}
+.link--white {
+	color: black!important;
+}
+</style>
+
+{% schema %}
+{
+  "name": "Blog Img Center",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "img",
+      "name": "img",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Photo",
+          "info": "824px x 824px recommended"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "span",
+          "label": "span"
+        },
+        {
+          "type": "text",
+          "id": "body-text",
+          "label": "body text"
+        },
+        {
+          "type": "text",
+          "id": "ig",
+          "label": "Instagram link",
+          "info": "Optional. Must be full Instagram URL"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "product"
+        },
+ {
+      "id": "center-btn-link",
+      "type": "url",
+      "label": "Button URL"
+      },
+      {
+      "id": "center-btn",
+      "type": "text",
+      "label": "Button name"
+      }
+      ]
+    }
+  ]
+,
+ "presets": [
+      {
+      "name": "Blog Img Center",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+}
+{% endschema %}
