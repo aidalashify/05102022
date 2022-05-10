@@ -1,0 +1,36 @@
+<header class="blog__header" style="background-image: url('{% assign shopify_cdn_url =  section.settings.bg | img_url: 'master'  %}{% include 'ips_url' src:shopify_cdn_url %}')">
+  <img class="blog__header__image" src="{% assign shopify_cdn_url =  section.settings.image | img_url: 'master'  %}{% include 'ips_url' src:shopify_cdn_url %}" alt="">
+  <div class="blog__header__content">
+    <span class="blog__header__lead">
+       Blog
+    </span>
+    <h1 class="title-h1 blog__header__title">
+      {{ section.settings.title }}
+    </h1>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "blog header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg",
+      "label": "Background image for desktop",
+      "info": "1028px x 2880px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image for mobile",
+      "info": "548px x 640px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ]
+}
+{% endschema %}
