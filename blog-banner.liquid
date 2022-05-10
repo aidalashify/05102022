@@ -1,0 +1,336 @@
+{% assign hide_section = false %}
+
+{% if customer and section.settings.display_state == 'logged_out' %}
+  {% assign hide_section = true %}
+{% elsif customer == blank and section.settings.display_state == 'logged_in' %}
+  {% assign hide_section = true %}
+{% endif %}
+
+
+  {% unless hide_section %}
+  {{ 'blog-banner.css' | asset_url | stylesheet_tag }}
+
+  <div class="blog-banner blog-banner_section--{{ section.id }} swiper-container" role="region" aria-label="Hero" data-rotation-speed="{{ section.settings.rotation_speed | plus: 0 | times: 1000 }}" data-hero-slider>
+    
+     {%- if section.settings.video_url != blank -%}
+       <div class="banner-video-wrap">
+        <video class="video-full" id="myVideo" width:100%; height: 100%; loop autoplay preload="none" muted playsinline >
+            <source src="{{ section.settings.video_url }}" type="video/mp4" />
+        </video>
+       </div>
+    {% endif %}
+    
+    
+    <div class="banner__background-image medium-up--hide lazyload" data-bgset="{% render 'responsive-bg-image', image: section.settings.mobile_background_image %}"></div>
+    <div class="banner__background-image small--hide lazyload" data-bgset="{% render 'responsive-bg-image', image: section.settings.desktop_background_image %}"></div>
+   
+    <div class="overlay-banner" style="opacity: 0.{{ section.settings.overlay_opacity3 }}"></div>
+   
+    <div class="wrapper">
+      
+      <div class="blog-banner__content blog-banner__content--mobile-{{ section.settings.mobile_content_position }} blog-banner__content--desktop-{{ section.settings.desktop_content_position }} small--text-{{ section.settings.mobile_text_alignment }} medium-up--text-{{ section.settings.desktop_text_alignment }}">
+        
+         {% if section.settings.intro != blank %}
+                  <small>{{ section.settings.intro }}</small>
+         {% endif %}
+        
+       
+        
+           {% if section.settings.headline != blank %}
+                 
+                    <h3 class="medium-up--hide">
+                      {{ section.settings.mobile_headline | newline_to_br }}
+                    </h3>
+
+                    <h3 class="small--hide">
+                      {{ section.settings.headline | newline_to_br }}
+                    </h3>
+               
+           {% endif %}
+
+              {% if section.settings.content != blank %}
+                  <p>
+                    <span class="medium-up--hide">
+                      {{section.settings.mobile_content | newline_to_br }}
+                    </span>
+
+                    <span class="small--hide">
+                      {{ section.settings.content | newline_to_br }}
+                    </span>
+                  </p>
+                {% endif %}
+        
+    
+        
+            {% if section.settings.cta_text != blank or section.settings.secondary_cta_text != blank %}
+                  <div class="new__buttons">
+                    {% if section.settings.cta_text != blank %}
+                      <a class="btn btn--outline btn--secondary {% if section.settings.secondary_cta_text == blank %}btn--full{% endif %}" href="{{ section.settings.cta_link }}" title="{{ section.settings.cta_text }}">
+                        {{ section.settings.cta_text }}
+                      </a>
+                    {% endif %}
+
+                    {% if section.settings.secondary_cta_text != blank %}
+                      <a class="btn btn--outline btn--secondary" href="{{ section.settings.secondary_cta_link }}" title="{{ section.settings.secondary_cta_text }}">
+                        {{ section.settings.secondary_cta_text }}
+                      </a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+        
+     
+  
+      </div>
+    </div>
+  </div>
+
+
+
+  <style>
+    .blog-banner_section--{{ section.id }} {
+      height: {{ section.settings.mobile_height }}px;
+    }
+
+    @media only screen and (min-width: 750px) {
+      .blog-banner_section--{{ section.id }} {
+        height: {{ section.settings.desktop_height }}px;
+      }
+    }
+
+    .blog-banner_section--{{ section.id }} .blog-banner__content {
+      color: {{ section.settings.text_color }};
+    }
+     .blog-banner_section--{{ section.id }} .blog-banner__content p {
+      color: {{ section.settings.text_color }};
+    }
+  
+</style>
+
+{% endunless %}
+
+{% schema %}
+  {
+    "settings": [
+ {
+            "type": "text",
+            "id": "intro",
+            "label": "Intro"
+          },
+       {
+            "type": "textarea",
+            "id": "mobile_headline",
+            "label": "Mobile Headline"
+          },
+          {
+            "type": "textarea",
+            "id": "headline",
+            "label": "Headline"
+          },
+       {
+            "type": "textarea",
+            "id": "mobile_content",
+            "label": "Mobile Content"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content"
+          },
+      {
+        "type": "radio",
+        "id": "text_color",
+        "label": "Text Color",
+        "options": [
+          {"value": "white", "label": "White"},
+          {"value": "black", "label": "Black"}
+        ],
+        "default": "white"
+      },
+      {
+        "type": "image_picker",
+        "id": "desktop_background_image",
+        "label": "Desktop Background Image",
+        "info": "Dimensions 2880 x 1224"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_background_image",
+        "label": "Mobile Background Image",
+        "info": "Dimensions 750 x 1360"
+      },
+      {
+        "type": "number",
+        "id": "desktop_height",
+        "label": "Desktop Height (px)",
+        "default": 612
+      },
+      {
+        "type": "number",
+        "id": "mobile_height",
+        "label": "Mobile Height (px)",
+        "default": 680
+      },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+          },
+          {
+            "type": "text",
+            "id": "secondary_cta_text",
+            "label": "Secondary CTA Text"
+          },
+          {
+            "type": "url",
+            "id": "secondary_cta_link",
+            "label": "Secondary CTA Link"
+          },
+
+
+
+      {
+        "type": "text",
+        "id": "video_url",
+        "label": "Video URL",
+        "info": "Upload video to Settings > Files or Vimeo and add the URL here"
+      },
+{
+
+"type": "range",
+
+"id": "overlay_opacity3",
+
+"label": {
+
+"en": "Overlay opacity"
+
+},
+
+"min": 0,
+
+"max": 99,
+
+"step": 1,
+
+"unit": {
+
+"en": "%"
+
+},
+
+"default": 0
+
+},
+      {
+        "type": "select",
+        "id": "desktop_text_alignment",
+        "label": "Desktop Text Alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "select",
+        "id": "mobile_text_alignment",
+        "label": "Mobile Text Alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "select",
+        "id": "desktop_content_position",
+        "label": "Desktop Content Position",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "select",
+        "id": "mobile_content_position",
+        "label": "Mobile Content Position",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ],
+        "default": "bottom"
+      },
+      {
+        "type": "select",
+        "id": "display_state",
+        "label": "Display State",
+        "options": [
+          {
+            "value": "all",
+            "label": "All Users"
+          },
+          {
+            "value": "logged_out",
+            "label": "Logged Out Users"
+          },
+          {
+            "value": "logged_in",
+            "label": "Logged In Users"
+          }
+        ],
+        "default": "all"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Blog Banner"
+      }
+    ]
+  }
+{% endschema %}
