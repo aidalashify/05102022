@@ -1,0 +1,337 @@
+{
+  "sections": {
+    "16517056650c2f9da3": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The best eyelashes for any eye shape",
+        "headline": "THE BEST EYELASHES FOR ANY EYE SHAPE",
+        "mobile_content": "Vanessa Quinteros",
+        "content": "vanessa quinteros",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/Any_eye_shape_cover_1_599x_83ace7fb-0812-4a67-82f9-23a9fc1fd5b4.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/Any_eye_shape_cover_1_599x_3a0fbd48-71af-4e8f-b742-2b82f684dd42.png",
+        "desktop_height": 450,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 76,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "center",
+        "display_state": "all"
+      }
+    },
+    "16517077273ea70c41": {
+      "type": "blog-title",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "THE BEST EYELASHES FOR ANY EYE SHAPE",
+        "custom_text_span": "Posted by Vanessa Quinteros on 14 March, 2022"
+      }
+    },
+    "1651705754bdad98ae": {
+      "type": "text",
+      "disabled": true,
+      "settings": {
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "Posted by Vanessa Quinteros on 14 March, 2022",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "main": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "We all love amazing, flawless looking lashes. Whether you are playing with a strip lash, individuals, salon extensions, or Lashify DIY extensions, you want to choose the most flattering style for you!<br><br>\nSo you look at the ads, or follow a tutorial you think looks great.  Then after you have applied the lashes, you look and think “This looks nothing like the girl in the tutorial”!!  Not to worry, this has happened to all of us!  The reason why, is because typically we don’t factor in our personal eye shape vs that of the model or educator.  But what if you don’t know your eye shape? You then start asking yourself, “what would look flattering on me”?  “How can I figure out my eye shape”?  Well, don't worry, we have you covered!  This article will share a detailed breakdown of how to determine your eye shape. Then it will be so much easier to choose the best lashes for you! <br><br>\nThe Lashify DIY lash extension system has various lash styles and lengths that are fully customizable.  This allows you to create various lash maps that are flattering to your eye shape and personal style.  The possibilities are truly endless!  So let’s dive in and figure out what your eye shape is!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 70,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16517057335c75f3b1": {
+      "type": "blog-title",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "Posted by Vanessa Quinteros on 14 March, 2022",
+        "custom_text_span": ""
+      }
+    },
+    "16517061930fb675e4": {
+      "type": "two-column-imgLeft",
+      "disabled": true,
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/lashifyr-control-kit-kit-lashify-black-amplify-most-natural-634966_1_480x480_b73e902b-aaab-4073-872b-019e454c90ec.webp",
+        "shop-now": "Choose the right control kit for you",
+        "shopNow_link": "shopify:\/\/pages\/control-kit-quiz"
+      }
+    },
+    "1651706234391232cf": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "How many eye shapes are there?",
+        "section-large-heading": "",
+        "description": "Most eye shape infographics keep things pretty simple, and group things together when describing an eye shape.  So you may find that your eye shape fits into more than one.  Why?  Because there are different degrees of an eye shape, or a combination of factors involved.  To better understand this, when people say “shape” that technically refers to round, almond, or cat eyed.  However when we say monolid, hooded, or deep set, this actually refers to the lid type not necessarily a “shape”.  <br><br>Yet these descriptions are usually listed as an eye shape category.  That is why you may find yourself having a combination of the descriptions listed.  For example someone can have a large almond eye that is also hooded.  This doesn’t mean you have 2 eyes shapes, but instead it refers to your eye size, shape and lid type.  Someone else can have an upturned monolid, which refers to lid type and positioning.  You get the idea…. \n<br><br>\nTo keep things simple we will also combine eye shape (almond, round), size (small, medium, large), lid type (hooded, monolid, deep set, etc), and positioning (upturned, downturned, wide set, etc) to create 6 basic eye “shape” categories.  Click on the eye shape category below to get more details about that particular category, various combinations and suggested lash maps.\n<br><br>\n1. Round<br>\n2. Almond<br>\n3. Hooded<br>\n4. Upturned<br>\n5. Downturned<br>\n6. Monolid   <br>",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 25,
+        "mobile_bottom_padding": 25,
+        "desktop_top_padding": 50,
+        "desktop_bottom_padding": 50
+      }
+    },
+    "16517062997f966808": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "How to determine eye shape",
+        "section-large-heading": "",
+        "description": "When determining your eye shape look straight ahead into a mirror, and make sure your head is straight.  From there we will be looking at a few things: <br>\n\n1. Your eye crease<br>\n2. Your eyelid space<br>\n3. How visible your iris is<br>\n4. How visible the whites around your iris are<br>\n5. The positioning of your outer corners",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651706479ac7ddf52": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Let's start with our first eye shape:",
+        "section-large-heading": "ROUND EYES",
+        "description": "This eye shape is often also called “doe eyes”, and can be small or large.  They will have a visible crease, and you will be able to see the whites of your eyes around the iris.  This can be above, below or both.  <br><br>\nRemember there can be different degrees of a round eye.  They can be small, average, or large.  Or they can be combined with other features.  Such as a round eye with a degree of hooding",
+        "view-btn-link": "https:\/\/lashify.com\/blogs\/lashify-news\/the-best-eyelash-looks-for-round-eyes",
+        "view-btn": "Learn More",
+        "mobile_top_padding": 25,
+        "mobile_bottom_padding": 25,
+        "desktop_top_padding": 25,
+        "desktop_bottom_padding": 25
+      }
+    },
+    "165170657295a77a89": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/round-bare_natural_vol.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651706750c5651ca9": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "ALMOND EYES",
+        "description": "ALMOND: This eye shape is the most versatile.  Meaning it can pull off almost anything depending on what other factors or combinations it has.  Your eye is almond shaped if, while looking straight into a mirror your pupil runs into the upper and lower lash line.  You won’t be able to see the whites of your eyes above or below the iris.<br><br>Almond eyes can also be large. Many incorrectly categorize almond eyes as round, simply because they are larger. Almond eyes can also have hooding, be upturned or downturned, etc…",
+        "view-btn-link": "https:\/\/lashify.com\/blogs\/lashify-news\/the-6-best-eyelash-looks-for-almond-eyes",
+        "view-btn": "Learn More",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651706798058eead1": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/almond-bare_natural_vol.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651708929f57dad66": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "HOODED EYES",
+        "description": "HOODED: A hooded eye refers to the crease being covered by extra skin. When the eye is open the eyelid is practically not visible. Typically there is a prominent brow bone, and the skin from the brow bone covers the lid.<br><br>Many people with hooded eyes tend to also have deep set eyes. The degree of “hooding” can also vary and change over time.",
+        "view-btn-link": "https:\/\/lashify.com\/blogs\/lashify-news\/the-6-best-eyelash-looks-for-hooded-eyes",
+        "view-btn": "Learn More",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "165170901102ca03c0": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/hooded-bare_natural_vol.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "165171171940a6e251": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "UPTURNED EYES",
+        "description": "Refers to the positioning of the outer corners. Imagine drawing a straight line across your eye while looking straight. The line should be just above the inner corner of the eye (above eye caruncle, or small, pink, globular spot in the inner corner), centering across the pupil, and sit approximately above the ear canal.<br><br>We are all a bit asymmetrical so it's totally normal to have one side higher than the other. Now take a look at the outer corners of your eye. Do they sit above the line?  If so, you have upturned eyes. Again you can have a combination of things going on, like for example an upturned, almond shaped, eye with some hooding.",
+        "view-btn-link": "https:\/\/lashify.com\/blogs\/lashify-news\/the-6-best-eyelash-looks-for-upturned-eyes",
+        "view-btn": "Learn more",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "165171180444e164c2": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/upturned-bare_natural_vol.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "165171180772456e8c": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "DOWNTURNED EYES",
+        "description": "This description also refers to the positioning of the outer corners. Imagine drawing a straight line across your eye while looking straight.  Again the line should be just above the inner corner of the eye (above eye caruncle, or small, pink, globular spot in the inner corner), centering across the pupil, and sit approximately above the ear canal.  We are all a bit asymmetrical so it's totally normal to have one side lower than the other.  Now take a look at the outer corners of your eye. Do they sit below the line? If so, you have downturned eyes.<br><br>Again you can have a combination of things going on, and different levels of downturning.  For example someone can have a down turned, almond shaped, monolid.",
+        "view-btn-link": "https:\/\/lashify.com\/blogs\/lashify-news\/the-best-eyelash-looks-for-downturned-eyes",
+        "view-btn": "Learn more",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16517120218714ca3e": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/downturned-bare_natural_vol.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651712058e34b5a70": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "MONOLID EYES",
+        "description": "This eye type describes the eyelid. A monolid is a skin fold on the upper eyelid that makes it appear as if there is no visible crease line below your brow area. People with this eye type also tend to have straight lashes, at times pointing down.",
+        "view-btn-link": "https:\/\/lashify.com\/blogs\/lashify-news\/the-6-best-eyelash-looks-for-monolid-eyes",
+        "view-btn": "Learn more",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16517121396370cc2a": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/monolid-bare_natural_vol.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "16517121894d46dc09": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Choosing the right lash style for you",
+        "section-large-heading": "",
+        "description": "Every eye shape has its beauty!  No one shape is better than the other.  There are just different ways of wearing makeup, and lashes for each one.  Just like clothes and different body types.  And just like clothes, the lashes you choose will also depend on your personal taste, style, and comfort zone.  So just because you have a certain eye shape doesn’t mean you have to stick to just one style, shape or size.  Therefore, it's important to remember that choosing a style is not just solely based on your eye shape.   In this series you will find great recommendations and tips for each eye shape that you can incorporate into many styles.  This will allow you to create different lash maps for different occasions while following the recommendations for your eye shape.  <br><br>Another factor to consider, is whether you want to accentuate your eye shape, or adjust it a bit due to your personal preference.  For example…. You might have a round eye shape which you love.  Therefore you want to accentuate the shape and stick to the “doe eye look”.  While someone else may feel that because they have naturally rounded eye, they prefer to elongate them.  So the lash placement and styles they choose may be different, even if they have the same eye shape.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651712241e52cfa62": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "General pro tips",
+        "section-large-heading": "",
+        "description": "1. Avoid placing lashes all the way to the first natural lash in your inner corner.  Most of us have very short fine hair in our inner corners.  They also tend to be straighter due to the moisture in that area.  In addition the spacing between your inner corner lash line, and your lid can be limited.  So for most people, it's not very comfortable to place a lash all the way to that last little baby hair.  It’s totally okay to leave a couple of those out.  You can curl them if they are very straight (our Lashicurl heated silicone lash curler works best), even add a little mascara when wearing the bolder styles.  For the most part it looks very natural, and not noticeable. <br><br>2. We recommend using core styles in the inner corner, even when using the volume styles.  The volume Gossamer styles tend to have more curl and more fibers.  Therefore, they might be too much for your inner corners.  If you feel they are, a good solution is to start with a core lash in the corner, and overlap a volume lash over it.  This is also a great tip for longevity! <br><br> 3. Avoid placing Gossamer lashes all the way to the last natural lash on your outer corner. On most eye shapes, placing a Gossamer all the way to the last natural lash can cause the eye to droop.  We recommend bringing the last lash in a bit.  You can also choose a smaller lash for the outer corner, and overlap a longer lash.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165171232487d259f6": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "And there you have it!",
+        "section-large-heading": "",
+        "description": "An in depth look at eye shapes and some of our most useful Pro Tips! Remember to have fun experimenting with different styles and shapes. You may be surprised what you end up falling in love with. That's the fun of Lashify! The possibilities are endless. Feel free to book a complimentary 1:1 with one of our extremely talented Educators! <br><br>\n<em>Find out what others are saying about their Lashify experience and the Lash Maps they're creating on the Lashify Life Facebook group! <\/em>",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    }
+  },
+  "order": [
+    "16517056650c2f9da3",
+    "16517077273ea70c41",
+    "1651705754bdad98ae",
+    "main",
+    "16517057335c75f3b1",
+    "16517061930fb675e4",
+    "1651706234391232cf",
+    "16517062997f966808",
+    "1651706479ac7ddf52",
+    "165170657295a77a89",
+    "1651706750c5651ca9",
+    "1651706798058eead1",
+    "1651708929f57dad66",
+    "165170901102ca03c0",
+    "165171171940a6e251",
+    "165171180444e164c2",
+    "165171180772456e8c",
+    "16517120218714ca3e",
+    "1651712058e34b5a70",
+    "16517121396370cc2a",
+    "16517121894d46dc09",
+    "1651712241e52cfa62",
+    "165171232487d259f6"
+  ]
+}
