@@ -1,0 +1,190 @@
+
+
+<section class="main-section reverse-on-mobile">
+
+  
+  {{ header_newlines | newline_to_br }}
+
+
+<div class="about-column-section reverse-on-mobile">
+  
+  
+    
+       <div class="img-left about-column">
+        {{ section.settings.column_image| img_url: '' | img_tag }}
+       </div>
+ 
+    
+      <div class="about-column-text">
+        <p class="about_span_header">{{ section.settings.custom_text_span}}</p>
+        <h2 class="title-text"> {{ section.settings.custom_text_title }} </h2>
+        <div class="body-text">{{ section.settings.custom_text_body }}</div>
+        
+         <a class="button about__btn" href="{{ section.settings.link_url }}" target="_blank">
+      {{ section.settings.link_label }}
+    </a>
+      </div>
+  
+   
+
+  <br style="clear:both;" />
+
+  
+</div>
+
+
+</section>
+
+
+
+<style>
+  
+   @font-face {
+      font-family: 'wide';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/GraphikWide-Regular.woff2?v=1627450731);
+    }
+
+    .main-section {
+  font-family: inherit;
+  background-color: black;
+  color: white;
+   }
+  
+  .about-column-section {
+ max-width: 1100px;
+      display: flex;
+     -ms-flex-align: center;
+	align-items: center;
+	display: -ms-flexbox;
+  flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .about-column {
+  flex: 50%;
+  padding: 25px;
+}
+
+  .about-column-text {
+  text-align: left;
+    flex: 50%;
+    padding: 25px;
+  }
+  
+  .about_span_header {
+	display: block;
+	font-family: 'wide' !important;
+	font-size: 10px !important;
+	letter-spacing: 1.5px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+  }
+
+  .title-text {
+ font-family: 'Graphik Wide Bold';
+  font-size: 28px;
+   font-weight:700;
+    line-height: 30px;
+}
+
+  .img-left, .img-right {
+  justify-content: center;
+    padding-top: 2%;
+  }
+
+  
+.about__btn.button--white,
+.button.about__btn {
+	line-height: normal;
+  	font-family: 'Graphik Wide Bold' !important;
+  	border: 1px solid transparent;
+  	color: #000 !important;
+  	font-size: 10px !important;
+  	justify-content: center;
+    -ms-flex-pack: center;
+    transition: all 0.2s linear;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+  	text-transform: uppercase;
+  	padding: 10px 20px 10px 20px;
+  	background: white;
+}
+
+  .body-text a {
+  color: white;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-column{ 
+    flex: 100%;
+      
+    }
+
+    .about-column-text {
+    padding-left: 20px !important;
+      flex: 100%;
+    }
+      .img-left,.img-right {
+   float:none;
+        width:100%;
+  }
+    
+     
+  }
+
+
+</style>
+
+
+{% schema %}
+  {
+    "name": "about img left",
+    "settings": [
+
+{
+        "id": "custom_text_span",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      },
+ {
+        "id": "custom_text_title",
+        "type": "text",
+        "label": "Text box heading",
+        "default": "Title"
+      },
+      {
+        "id": "custom_text_body",
+        "type": "textarea",
+        "label": "Add custom text below"
+        
+      },
+ {
+        "id": "column_image",
+        "type": "image_picker",
+        "label": "Image"
+      },
+{
+          "type": "text",
+          "id": "link_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Button URL"
+        }
+
+
+  
+    ],
+ "presets": [
+      {
+      "name": "about img left",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+  }
+{% endschema %}
