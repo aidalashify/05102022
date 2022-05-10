@@ -1,0 +1,264 @@
+<div class="blog-hero">
+  <div class="blog-hero-inner">
+    <div class="blog-hero-left-content">
+    {% for block in section.blocks %}
+    {% assign article = articles[block.settings.article] %}
+    <div class="blog-hero-left loop-{{ forloop.index0 }}" {% if forloop.index > 1 %}style="display:none"{% endif %}>
+      <div class="blog-hero-content">
+        <span class="heading desktop-only"> LASHIFY: <br> DEEPDIVE </span>
+        <span class="hero-label"> {{ block.settings.article_label }} </span>
+        <span class="sub-heading"> {{ block.settings.article_subtitle }} </span>
+        <span class="excerpt"> {{ block.settings.article_excerpt }}</span>
+        <a href="{{ article.url }}"> read and shop </a>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+    <div class="blog-hero-right">
+      {% for block in section.blocks %}
+      <span class="heading mobile-only loop-{{ forloop.index0 }}{% if forloop.index > 1 %} hide{% endif %}"> {{ block.settings.title }} </span>
+      {% endfor %}
+      <div class="blog-hero-right-inner">
+        {% for block in section.blocks %}
+        <div class="blog-hero-right-grid-item">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style> 
+  @font-face {
+    font-family: "Didot";
+    src: url("https://cdn.shopify.com/s/files/1/1832/9335/files/Didot_Regular.ttf?v=1650006909") format("otf")
+  }
+  .blog-hero-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+  }
+  .blog-hero-right-inner{
+    display: block;
+    width: 100%;
+  }
+  .blog-hero-right-inner > div{
+    display: block;
+  }
+  .blog-hero-inner > div {
+   	width: 50%; 
+  }
+  .blog-hero-left {
+  	    display: flex;
+    align-items: end;
+  }
+  .blog-hero-content {
+    padding-left: 66px;
+    max-width: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .heading {
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 73px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  .hero-label {
+  font-family: Graphik Light,helvetica,arial,sans-serif;
+font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .sub-heading {
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+  .excerpt {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .blog-hero-content a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+  }
+  .blog-hero-inner .blog-hero-right-grid-item {
+   	height: auto; 
+  }
+  .slick-list{padding:0 5% 0 0 !important;}
+  button.slick-prev {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+  }
+  button.slick-arrow {
+    width: 30px;
+}
+  button.slick-next {
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+}
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .slick-disabled {
+    opacity: 0.3;
+  }
+  .show-text {
+   	display: block!important; 
+  }
+  @media (max-width: 767px) {
+    .blog-hero-inner {
+     	padding: 20px 0px; 
+    }
+    .blog-hero-inner {
+      flex-direction: column-reverse;
+    }
+    .blog-hero-inner > div {
+      width: 100%; 
+    }
+    .slick-list{padding:0!important;}
+    .blog-hero-content {
+      padding-left: 20px;
+      margin-top: 20px
+    }	
+    .heading {
+      font-size: 31px;
+      line-height: 31px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+    .hero-label {
+     	margin-bottom: 10px; 
+    }
+    .desktop-only {
+      display: none;
+    }
+    .mobile-only {
+      display: block;
+    }
+    .sub-heading {
+      font-size: 24px;
+    line-height: 24px;
+    }
+    .excerpt {
+      font-weight: 100;
+    }
+    button.slick-prev {
+      left: unset;
+      right: 32px;
+    }
+    button.slick-next {
+      left: unset;
+      right: 0;
+    }
+  }
+</style>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.blog-hero-right-inner').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      infinite: false,
+      arrows: true,
+      dots: false,
+      centerMode: true,
+      nextArrow: '<button class="slick-next slick-arrow"><img src="https://cdn.shopify.com/s/files/1/1832/9335/files/btn_right_active.png?v=1650006807"></button>',
+      prevArrow: '<button class="slick-prev slick-arrow"><img src="https://cdn.shopify.com/s/files/1/1832/9335/files/btn_left_active.png?v=1650006807"></button>'
+    });
+    $('.blog-hero-right-inner').on('afterChange', function(event, slick, currentSlide, nextSlide){
+       $(".blog-hero-left-content").children(".blog-hero-left").removeClass("show-text");
+      $(".blog-hero-left-content").children(".blog-hero-left").hide();
+      $(".blog-hero-left-content").find(".loop-"+currentSlide).addClass("show-text");
+      if ($(window).width() < 767) {
+          $(".blog-hero-right").children(".heading").removeClass("show-text");
+      $(".blog-hero-right").children(".heading").hide();
+      $(".blog-hero-right").find(".loop-"+currentSlide).addClass("show-text");
+}
+      console.log(currentSlide);
+    });
+  })
+</script>
+{% schema %}
+  {
+    "name": "Blog Hero Section",
+    "settings": [],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+         {
+           "type": "article",
+           "id": "article",
+           "label": "Article"
+         },
+         {
+           "type": "text",
+           "id": "article_subtitle",
+           "label": "Subtitle",
+			"default": "Article Subtitle"
+         },
+         {
+           "type": "text",
+           "id": "article_label",
+           "label": "Label",
+			"default": "[FEATURED]"
+         },
+         {
+           "type": "textarea",
+           "id": "article_excerpt",
+           "label": "Excerpt",
+			"default": "The in-depth guide to proper bond application and achieving longevity through layering, mixing and applying bonds."
+         }
+]
+}
+       ],
+      "presets": [
+      {
+      "name": "Blog Hero",
+      "category": "Blogs"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
