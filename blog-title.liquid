@@ -1,0 +1,95 @@
+{{ 'two-column.css' | asset_url | stylesheet_tag }}
+
+<main>
+  
+  <h1 class="custom-text-header header_newlines">
+    {{ section.settings.custom_text_header}}
+  </h1>
+
+  
+  {{ header_newlines | newline_to_br }}
+
+
+<p class="custom_span_header" style="padding-bottom: 20px;">{{ section.settings.custom_text_span}}</p>
+
+
+
+</main>
+
+  
+<style>
+      @font-face {
+      font-family: 'wide';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/GraphikWide-Regular.woff2?v=1627450731);
+    }
+
+    @font-face {
+      font-family: 'Didot Bold';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/Didot_LT_Std_Bold.otf?v=1650562835);
+    }
+
+
+.custom-text-header {
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+       font-family: 'Didot Bold';
+      font-size: 80px;
+      text-transform: none;
+    }
+
+.custom-text-section {
+  max-width: 1000px;
+  padding-top: 20px;
+  margin: 0 auto;
+
+    }
+
+    .custom_span_header {
+      font-size: 14PX;
+      text-align: center;
+      margin: 0 auto;
+      font-family: wide;
+    }
+
+   
+
+
+    @media only screen and (max-width: 767px){
+      
+    .custom-text-header {
+          font-size: 32px !important;
+          font-weight: bold;
+          
+        }
+      
+    }
+
+</style>
+{% schema %}
+  {
+    "name": "Blog Title",
+    "settings": [
+{
+        "id": "custom_text_header",
+        "type": "text",
+        "label": "main heading",
+        "default": "Title"
+      },
+{
+        "id": "custom_text_span",
+        "type": "text",
+        "label": "span",
+        "default": "span"
+      }
+    
+    ],
+ "presets": [
+      {
+      "name": "Blog Title",
+      "category": "ADVANCED LAYOUT"
+      }
+      ]
+  }
+{% endschema %}
