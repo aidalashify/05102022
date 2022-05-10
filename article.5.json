@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "1651715738dac80caf": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "Top 5 Reasons Why Lashify is Better than Mascara",
+        "headline": "Top 5 Reasons Why Lashify is Better than Mascara",
+        "mobile_content": "Ana Blount",
+        "content": "Ana Blount",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/Asset_5_520x500_93c3cdeb-208a-40af-bc77-564562009115.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/Asset_5_520x500_93c3cdeb-208a-40af-bc77-564562009115.webp",
+        "desktop_height": 400,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 79,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "main": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "First of all, no shade to mascara. As a makeup-bag MVP, this cosmetic does a lot of heavy lifting when it comes to defining your features. And for veritable decades, it was the only game in town. There is also a spectrum when it comes to formulas and brushes—some are far better than others, of course.\n<br><br>\nBut when it comes to comparing mascara with Lashify? It’s just not a fair fight, friends. There’s no comparison. If you want lush, full, gorgeous lashes, it’s all about Lashify. Mascara can’t hold a candle. \n<br><br>\nThink about it like this: If you were shopping for a car, why would you opt for one without power windows? Lashify is the same sort of thing in that it’s an evolved technology from a look, product and experience perspective. So why live in the past? We use the tools we have and the tools have come a long way when it comes to lashes.\n<br><br>\nIf you're new to the Lashify System and not sure where to begin, take a look at our Control Kit; it has absolutely everything you need to get started!\n<br><br>\n<strong>The Lashify Control Kit<\/strong>",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16517159524d68fd24": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/lashifyr-control-kit-kit-lashify-black-amplify-most-natural-634966_1_480x480_b73e902b-aaab-4073-872b-019e454c90ec.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "16517160136a16a29d": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "Here, our top 5 reasons Lashify is better than mascara. Yes, even your favorite one—even that one.",
+        "section-heading": "Reason #1: No More Clumps",
+        "section-large-heading": "",
+        "description": "Anyone who’s tested out even a few mascaras in her life can attest to the fact that clumpy formulas ruin a look. If you want a super lengthy lash look, it takes a couple of coats to pull that off. And that more than likely leads to an effect that’s more Tammy Faye Baker than stunning.\n\n<br><br>\n\nBy comparison, the process of applying Lashify uses specially designed tools to ensure that you’ll always have a clean, professional-looking lash effect.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16517161161ada8748": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/MascaraVLashify.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "16517161575f4b2631": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Reason #2: No Tedious Removal",
+        "section-large-heading": "",
+        "description": "Mascara has to be removed every night, no exceptions. Otherwise you can get makeup all over your sheets, not to mention the fact that it’s not good for your eyes to sleep in makeup. Removing waterproof mascara is practically its own special project. Wearing mascara overnight can even contribute to the appearance of fine lines around the eyes. No thanks to that. \n\n<br><br>\nWith Lashify’s removal products, you’ll get a smooth, easy removal of your Gossamers and bond. These products are specially formulated to be gentle and nourishing to your natural lashes and skin—no tugging necessary. With Lashify, you can also wear your Gossamers for up to ten days straight, so there’s no need to take them off before bed every night. Every day you’ll wake up with lashes that are ready to go. \n<br><br>\n<strong>Lashify Melt Away<\/strong>",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "165171624083bd9fed": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/melt-away-gossamerr-lash-remover-remover-lashify-166167_1_480x480_2e612a97-3c8d-4d8b-84e3-1a3487b43226.webp",
+        "shop-now": "Shop Now",
+        "shopNow_link": "shopify:\/\/products\/melt-away"
+      }
+    },
+    "16517164573de1ea07": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "<strong>Lashify Release<strong><\/strong><\/strong>",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651716502ecaef509": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/release_480x480_470c7108-a0ec-4597-93c1-18f73a777f04.webp",
+        "shop-now": "Shop Now",
+        "shopNow_link": "shopify:\/\/products\/release"
+      }
+    },
+    "1651716504bd7c7b66": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Reason #3: No Smearing",
+        "section-large-heading": "",
+        "description": "Mascara tears—why? From Taylor Swift music videos to Lauren Conrad’s famous one on “The Hills,” mascara tears can out your emotions from across the room. If only they’d had Lashify in the earlier aughts\/2010s.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16517166888fba802e": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/mascara_smudge_img.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "1651716714c83542fe": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "You can wear Lashify while you swim, cry, wherever your journey may take you. Just make sure you've allowed the bond enough time to cure and you're good to go! With mascara, even waterproof formulas can migrate far below your lower lash line on a humid day. With Lashify, you’ll enjoy no smearing or running for as long as you wear them.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651716733433b546a": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Reason #4: Lashify Actually Looks Like Lashes",
+        "section-large-heading": "",
+        "description": "Lashify creates volume. Mascara can create the illusion of volume. Why not be your own lash tech and craft your own lash effect, whether it’s natural or dramatic with Lashify? Enjoy up to ten days of beautiful lashes that look like your own, just longer, thicker, and basically everything else you’re trying to achieve with mascara.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651716769d3ec4aae": {
+      "type": "two-column-imgLeft",
+      "settings": {
+        "custom_text_title-right": "",
+        "custom_text_body-right": "",
+        "column_image": "shopify:\/\/shop_images\/lashify_better_than_mascara_lashify_model.webp",
+        "shop-now": "",
+        "shopNow_link": ""
+      }
+    },
+    "16517168030a685c18": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Reason #5: No Liner Necessary",
+        "section-large-heading": "",
+        "description": "Lashify creates a lash landscape so thick and lush, you can skip the rest of your eye makeup, from eyeliner to eye shadow. Of course, you can opt to use it if you want a little extra eye flare. Lashify is perfect for creating that depth of lashes that mimics the look of tight lining your eyes. \n\n<br><br>\n\n<em><strong>\nFind out what others are saying about their Lashify experience on the Lashify Life Facebook group! \n<\/strong><\/em>",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    }
+  },
+  "order": [
+    "1651715738dac80caf",
+    "main",
+    "16517159524d68fd24",
+    "16517160136a16a29d",
+    "16517161161ada8748",
+    "16517161575f4b2631",
+    "165171624083bd9fed",
+    "16517164573de1ea07",
+    "1651716502ecaef509",
+    "1651716504bd7c7b66",
+    "16517166888fba802e",
+    "1651716714c83542fe",
+    "1651716733433b546a",
+    "1651716769d3ec4aae",
+    "16517168030a685c18"
+  ]
+}
