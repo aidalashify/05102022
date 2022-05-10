@@ -1,0 +1,342 @@
+<div class="blog-bottom">
+  <div class="blog-bottom-inner">
+    <div class="blog-bottom-left">
+      <div class="blog-bottom-left-inner">
+        <div class="blog-bottom-categories">
+<!--           <div class="blog-categories-headline">
+            <span> All </span>
+          </div> -->
+          <div class="blog-categories-items">
+            <li {% unless request.path contains 'tagged' %}class="active" {% endunless %}> 
+              <a href="{{ blog.url }}"> All </a>
+            </li>
+            {% for tag in blog.all_tags %}
+            {% if tag contains '[' %}
+            <div class="tag-grid">
+            {% if current_tags contains tag %}
+            <li class="active">{{ tag | link_to_remove_tag: tag }}</li>
+            {% else %}
+            <li>{{ tag | link_to_tag: tag }}</li>
+            {% endif %}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="blog-bottom-tags">
+          <div class="blog-tags-search">
+            <form action="/search" method="get" class="search-bar tags-search-form" role="search">
+              <svg class="icon-search" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.75 21.75L15.5828 15.5828" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
+                <path d="M9.75 18C14.3063 18 18 14.3063 18 9.75C18 5.19365 14.3063 1.5 9.75 1.5C5.19365 1.5 1.5 5.19365 1.5 9.75C1.5 14.3063 5.19365 18 9.75 18Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
+              </svg>
+              <input type="hidden" name="type" value="product">
+              <input id="search" type="search" class="ui-uppercase" name="q" value="" placeholder="search for a topic">
+            </form>
+            <span class="no-product-found"> No Tags Found </span>
+          </div>
+          <div class="blog-tag-values"> 
+            {% for tag in blog.all_tags %}
+            {% if tag contains '#' %}
+            <div class="tag-grid{% if request.path contains 'tagged'  %}{% elsif forloop.index > 4 %} hide{% endif %}">
+            {% if current_tags contains tag %}
+            <li class="active">{{ tag | link_to_remove_tag: tag }}</li>
+            {% else %}
+            <li>{{ tag | link_to_tag: tag }}</li>
+            {% endif %}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+          {% unless request.path contains 'tagged'  %}
+          <span class="see-all-tags"> see all tags </span>
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+    <div class="blog-bottom-right">
+      <div class="blog-bottom-article">
+        {% paginate blog.articles by 6 %}
+        {% for article in blog.articles %}
+        <div class="article-grid">
+          <div class="article-grid-left">
+            <img src="{{ article.image.src | image_url: width: 500 }}">
+          </div>
+          <div class="article-grid-right">
+            <div class="article-grid-content">
+             <!-- <span class="article-type"> [All About <b>Bonds</b>] </span> -->
+              <span class="article-title"> {{ article.title }}  </span>
+              <span class="article-excerpt"> {{ article.excerpt }} </span>
+              <a href="{{ article.url }}"> Read And Shop </a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        <div class="blogs-pagination">
+          {{ paginate | default_pagination: next: '>', previous: '<' }} 
+        </div>
+        {% endpaginate %}
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .blog-bottom-inner {
+    display: flex;
+    padding: 0px 66px;
+  }
+  .blog-bottom-left-inner {
+    max-width: 360px;
+  }
+  .blog-bottom-left {
+    width: 40%;
+  }
+  .blog-bottom-right {
+    width: 60%;
+  }
+  .no-product-found {
+   	display: none; 
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .blog-categories-headline span {
+    font-family: 'Graphik Wide Bold';
+    text-transform: uppercase;
+  }
+  .blog-categories-headline {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+  }
+  .blog-categories-headline span {
+    font-family: 'Graphik Wide Bold';
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  .blog-categories-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-categories-items li {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: #878787;
+    padding-left: 10px;
+    list-style: none;
+}
+.blog-categories-items li.active {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+    font-family: 'Graphik Wide Bold';
+    text-transform: uppercase;
+  color: #000;
+}
+  .blog-bottom-categories {
+    margin-bottom: 20px;
+  }
+  .blog-tags-search form {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    padding-left: 20px;
+  }
+  .blog-tags-search form path{
+    stroke: #000;
+    stroke-width: 1px;
+  }
+ .blog-tags-search form  [type="search"] {
+   border: unset;
+    text-transform: capitalize;
+   font-family: 'Graphik Light';
+ }
+  .blog-tags-search {
+    margin-bottom: 20px;
+  }
+  .blog-tag-values {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog-tag-values li {
+    padding: 10px;
+    background-color: #E8E8E8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  .blog-tag-values li.active, .blog-tag-values li.active a  {
+    background-color: #000;
+    color: #fff;
+  }
+  .see-all-tags {
+    font-family: 'Graphik Bold';
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  .blog-bottom-article {
+    margin-bottom: 60px;
+  }
+  .article-grid {
+        display: flex;
+    margin-bottom: 60px;
+  }
+  .article-grid-left {
+    width: 50%;
+  }
+  .article-grid-right {
+    width: 50%;
+    padding-left: 30px;
+    display: flex;
+  }
+  .article-grid-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .article-type {
+    text-transform: uppercase;
+  }
+  .article-title {
+        font-size: 34px;
+    line-height: 33px;
+    font-family: 'Didot';
+    margin: 10px 0px 20px;
+  }
+  .article-excerpt {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .article-grid-content a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Graphik Wide Bold';
+  }
+  .article-grid-left img{
+        height: 100%;
+    object-fit: cover;
+  }
+.blogs-pagination > span {
+  	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DFE3E8;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    font-family: 'Graphik Wide Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+  .blogs-pagination > span a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blogs-pagination > span.current {
+    border-bottom: 2px solid #000;
+}
+    .blogs-pagination > span:not(.deco):hover {
+    border-bottom: 2px solid #000;
+}
+  @media (max-width: 767px) {
+    .blog-bottom-left {
+      display: none;
+    }
+    .blog-bottom-right {
+      width: 100%;
+    }
+    .blog-bottom-inner {
+      padding: 0;
+    }
+    .article-grid {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .article-grid > div {
+      width: 100%; 
+    }
+    .article-type {
+      margin-top: 10px;
+    }
+    .article-grid-content a {
+      text-decoration: underline;
+    }
+    .article-grid-right {
+      padding-left: 20px;
+    }
+  }
+</style>
+<script>
+  $(".see-all-tags").click(function(){
+  	$(".blog-bottom-tags").find(".hide").removeClass("hide")
+    $(".blog-tag-values").children().show()
+    $(this).hide();
+  })
+  $(".blog-tags-search #search").keyup(function(){
+    console.log("upp")
+    console.log($(this).val().trim().length)
+    var value = $(this).val().toLowerCase().trim(),
+        counter = 0;
+     $(".no-product-found").hide()
+    if(value.length > 2) {
+      $(".blog-tag-values").find("a").each(function(){
+      	var searchedString = $(this).text().toLowerCase();
+        if(searchedString.includes(value)) {
+          $(this).parent().parent().show();
+          $(this).parent().parent().removeClass("hide");
+          counter = 1;
+        }
+        else {
+         $(this).parent().parent().hide();
+        }
+      })
+      if(counter == 0) {
+        $(".no-product-found").show();
+      }
+    }
+    else {
+      if($('.see-all-tags').is(':visible')) {
+        $(".blog-tag-values").children().hide();
+        $('.blog-tag-values > div:lt(4)').show();
+      }
+      else {
+        $(".blog-tag-values").children().show().removeClass("hide");
+      }
+
+    }
+  })
+</script>
+{% schema %}
+  {
+    "name": "Blog Bottom",
+    "settings": [],
+      "presets": [
+      {
+      "name": "Blog Bottom",
+      "category": "Blogs"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
