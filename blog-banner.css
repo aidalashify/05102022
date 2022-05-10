@@ -1,0 +1,209 @@
+
+
+      @font-face {
+      font-family: 'wide';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/GraphikWide-Regular.woff2?v=1627450731);
+    }
+
+    @font-face {
+      font-family: 'Didot Bold';
+      src: url(https://cdn.shopify.com/s/files/1/1832/9335/files/Didot_LT_Std_Bold.otf?v=1650562835);
+    }
+
+banner.blog-banner {
+    position: relative;
+    padding: 44px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.banner .wrapper {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+.blog-banner__content {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 16px;
+    color: #fff;
+    transform: translateX(-50%);
+   z-index: 3;
+}
+
+.new__buttons .btn:first-child{
+  margin-right:16px
+}
+.new__buttons .btn.btn--full{
+  margin-right:0
+}
+
+.blog-banner .overlay-banner {
+
+content: "";
+
+position: absolute;
+
+top: 0;
+
+right: 0;
+
+bottom: 0;
+
+left: 0;
+
+background: #000;
+
+z-index: 1;
+
+}
+
+@media screen and (min-width: 750px) {
+    .blog-banner__content {
+        top: 50%;
+        bottom: auto;
+        left: auto;
+        transform: translate(0, -50%);
+    }
+    .blog-banner__content.banner__content--desktop-right {
+        right: 0;
+    }
+    .blog-banner__content.banner__content--desktop-center {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  .blog-banner__content small {
+    display:block;
+    margin-bottom:5px;
+    color:#fff;
+    font-family:"Graphik Wide Regular",helvetica,arial,sans-serif;
+    font-size:2.4rem;
+    letter-spacing:0.2rem;
+    text-transform:uppercase
+  }
+  .new__buttons{
+    position:relative;
+    z-index:3;
+  }
+  .new__buttons .btn {
+    width:calc(50% - 8px);
+    width:auto;
+    min-width:192px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .blog-banner__content {
+        max-width: 800px;
+        padding: 0;
+    }
+    .template-control-kit .blog-banner__content {
+        max-width: 800px;
+    }
+    .blog-banner__content.blog-banner__content--desktop-center {
+        padding: 0 150px;
+    }
+}
+.blog-banner__content.blog-banner__content--mobile-bottom {
+    bottom: 0;
+}
+.blog-banner__content.blog-banner__content--mobile-center {
+    bottom: 38%;
+}
+
+@media screen and (min-width: 750px) {
+    .blog-banner__content.blog-banner__content--mobile-bottom {
+        bottom: auto;
+    }
+}
+.blog-banner__content h3 {
+    margin-bottom: 19px;
+    font-size: 4.2rem;
+    line-height: 4.2rem;
+  font-family: 'Didot Bold'!important;
+  	text-transform: none!important;
+}
+@media screen and (min-width: 750px) {
+    .blog-banner__content h3 {
+        margin-top: -15px;
+        margin-bottom: 26px;
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+      font-family: 'Didot Bold'!important;
+      text-transform: none!important;
+    }
+}
+.blog-banner__content p {
+    margin-bottom: 22px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+@media screen and (min-width: 750px) {
+    .blog-banner__content p {
+        margin-bottom: 30px;
+    }
+}
+.blog-banner__content .btn {
+    min-width: 209px;
+}
+.banner__background-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+ .video-full{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+     video{
+  background: #000;
+}
+
+
+
+
+    @media (min-width: 757px) {
+       .video-full{
+       
+        width: 100%;
+        height: auto;
+      }
+    }
+
+
+    @media (max-width: 757px) {
+    
+      
+      #button {
+      margin-bottom : 30px;
+    }
+      
+      video{
+  object-fit:fit;
+  background: #000;
+
+}
+ 
+   .new__buttons {
+     display:flex;
+     margin-bottom: 20px;
+   }
+      
+     .blog-banner__content .btn {
+    min-width: 48%;
+}
+
+    }
