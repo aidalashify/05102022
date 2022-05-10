@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "16517046653b1d31b3": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The Ultimate Eyebrow Shaping Guide",
+        "headline": "The Ultimate Eyebrow Shaping Guide",
+        "mobile_content": "Jill Medicis",
+        "content": "Jill Medicis",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/eyebrow_shaping_cover.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/eyebrow_shaping_cover.webp",
+        "desktop_height": 500,
+        "mobile_height": 500,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 80,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "center",
+        "display_state": "all"
+      }
+    },
+    "1651688008ff6887a1": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Overview",
+        "section-large-heading": "",
+        "description": "Welcome to 2021, the year that you apply a full face of makeup and then instantly cover it up with a mask. Today’s beauty gurus are saying that this year it is all about the eyes and what better way to define, highlight and enhance them than with luscious lashes and perfect brows! Getting killer brows is as easy as 1, 2, 3 and getting those perfect, long lashes is even easier with Lashify. Don’t know where to start to amp up your brow game? \n<br><br>\nBefore we break it down, let’s talk about the brow glow up that has come upon us over the last few years. In the 80’s bushy brows were a hit, in the 90’s brows were overplucked and skinny to resemble the shape of the McDonald’s arch, in the early 2000’s the darker and fuller brows were, the better. And now in 2021 we have finally accepted the natural brow but with a beautiful, full shape. If you’re like me, I over-plucked my brows in the 90s and spent all of the early 2000’s growing them back. From there I have tried bleaching them, tinting them, laminating them, and have contemplated micro-blading them until I found the perfect DIY Brow Cocktail that worked for me! We're going to break down the perfect eyebrow shaping guide in 4 easy steps!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 25,
+        "mobile_bottom_padding": 25,
+        "desktop_top_padding": 25,
+        "desktop_bottom_padding": 25
+      }
+    },
+    "1651688612bbde60c5": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "The DIY brow cocktail",
+        "section-large-heading": "",
+        "description": "Beautifully shaped brows can create a frame for the face and will complete your look. Eyebrows are unique and because of that everyone’s are different. It’s important to remember too that no eyebrows are perfectly alike (unless you are a beautiful model with a perfectly symmetrical face - annoying, I know, but they only exist because of makeup artists). Following these easy steps will help you out!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "16516889243e7a24e6": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "1. Where should your eyebrows start?",
+        "section-large-heading": "",
+        "description": "You can do this by drawing an invisible line from the outer sides of your nostrils to your brows. This is where you want your brows to begin. Too close and you have a unibrow, too far and people may think your brows are in the middle of a nasty divorce.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651688754d6076ecb": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "2. Determine where your arch should go",
+        "section-large-heading": "",
+        "description": "To figure this out, place your brow pencil along the outer edge of your nose and line it up through the iris. The arch doesn’t have to be too high, unless you are going for that always surprised look. Remember, natural brows are in!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651688757a14088ff": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "3. Determine where the brow will end",
+        "section-large-heading": "",
+        "description": "Line your pencil up next to your nose again and angle it to point along the end of your eye. This is where your eyebrow should end. Any further than the corner of your eye",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 44,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "1651687039bb8d9e72": {
+      "type": "text",
+      "disabled": true,
+      "settings": {
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 60,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "main": {
+      "type": "two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "REESE WITHERSPOON",
+        "custom_text_body-left": "<p>To bring drama to the lash line, celebrity makeup artist Kelsey Deenihan relied on Lashify to create a doe-eyed look. \"The fluffy lashes add a bit of playfulness,\" Kelsey notes. On the outer two thirds of the lash line, Deenihan applied Gossamers in F10 for fullness, then stacked the longer Gossamers in F12 over the very outer corners, and A8 on the inner corners to amplify the natural lashes. \"This added a slight lift to the corners of the eye,\" Deenihan says.<\/p>",
+        "custom_text_title-right": "KATE MCKINNON",
+        "custom_text_body-right": "<p>Celebrity makeup artist Cassandra Garcia added fullness and length to McKinnon's natural lashes to complement her rock 'n' roll gunmetal eye look. Garcia applied longer B14 Gossamers to the outer corners to accentuate the smoldering eye, and kept the medium-length A12 Gossamers concentrated in the middle and inner corners. \"They're really wispy and kind of taper at the ends, so it really does give the illusion of your natural lashes, just better. They're totally invisible to the eye, and it also gave me more room to get that smoldering look on the rest of the lid.\"<\/p>"
+      }
+    },
+    "16516314857f6e8373": {
+      "type": "two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "Nicole Kidman",
+        "custom_text_body-left": "<p>To bring focus to Nicole's eyes, celebrity makeup artist Kate Synnott used A12 Gossamers along the top lash line, followed by three B14 Gossamers at the outer corners for fullness and volume. \"This was my first time using Lashify, and I have to say, the lashes are absolutely amazing,\" Synnott says. \"I cannot get over how realistic they look— and so lightweight. I'm obsessed.\"<\/p>",
+        "custom_text_title-right": "Natasha Lyonne",
+        "custom_text_body-right": "<p>Natasha Lyonne, nominated for Best Performance by an Actress in a Television Series - Musical or Comedy for Russian Doll was Lashified by celebrity makeup artist, Molly Stern. Stern kept the lashes brown for a soft, yet bold look by applying Prismatic Dark Brown Gossamers. \"I applied a full row of A12 Gossamers, and then popped the edges with two extra A14 Gossamers.\"<\/p>"
+      }
+    },
+    "1651631614b7100b4e": {
+      "type": "two-column",
+      "disabled": true,
+      "settings": {
+        "custom_text_header": "",
+        "custom_text_span": "",
+        "custom_text_title-left": "Gugu Mbatha-Raw",
+        "custom_text_body-left": "<p>For Gugu's golden look, celebrity makeup artist Nick Barose used Lashify to avoid heavy eyes by applying Lashify<br\/>to play up the flirty lashes and define the eyes. He placed three A8 Gossamers toward the center of the lash lines,<br\/>then applied the longer A10 Gossamers on the outer corners, \"going from short to longer toward the outside lifts<br\/>and opens up the eyes.\"<\/p>",
+        "custom_text_title-right": "",
+        "custom_text_body-right": ""
+      }
+    },
+    "165213746698b2cd3d": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "4. Fill them in!",
+        "section-large-heading": "",
+        "description": "I love to utilize a skinny, retractable brow pencil to create small, thin strokes that look like natural brow hair. Be sure to take full advantage of the spoolie located on the end to soften any hard lines. I also love a bushy brow. I use a clear brow gel to brush them in an upward motion so that they are secure. Using a clear brow gel can also help soften the brow as well. Want that micro-bladed look? I suggest using a thin brow marker and creating small flicks that give the illusion of hair.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16521375515151a53b": {
+      "type": "about-imgLeft",
+      "settings": {
+        "custom_text_span": "NYX Micro Brow Pencil ($10)",
+        "custom_text_title": "My go-to brow pencil",
+        "custom_text_body": "I love that I can use this pencil to map out my eyebrows as well as fill them in for a natural, hair-like look that isn’t too thick. The spoolie on the end is perfect for softening any harsh lines.",
+        "column_image": "shopify:\/\/shop_images\/800897836870_microbrowpencil_ash_brown_main.jpg",
+        "link_label": "Learn More",
+        "link_url": "https:\/\/www.nyxcosmetics.com\/eye\/eyebrow\/micro-brow-pencil\/NYX_181.html"
+      }
+    },
+    "1652137669dff4b181": {
+      "type": "about-imgRight",
+      "settings": {
+        "custom_text_span1": "ColourPop Brow Boss Gel ($7)",
+        "custom_text_title-first": "My go-to brow gel",
+        "custom_text_body-first": "<p>The price point of this brow gel is amazing. It comes in a variety of colors, but I am a big fan of the clear gel. If you are looking to cover any gray hairs then I suggest getting a color that matches your brows and will conceal those pesky grays!<\/p>",
+        "column_image1": "shopify:\/\/shop_images\/Clear-Stylized.png",
+        "link_label": "Learn More",
+        "link_url": "https:\/\/colourpop.com\/products\/clear"
+      }
+    },
+    "16521378524d408711": {
+      "type": "about-imgLeft",
+      "settings": {
+        "custom_text_span": "Glossier Brow Flick ($18)",
+        "custom_text_title": "My go-to detailing pen",
+        "custom_text_body": "I love this product in order to achieve a fuller feel. I utilize it throughout the entire brow. It has a thin applicator that allows it to mimic the look of natural brow hairs.",
+        "column_image": "shopify:\/\/shop_images\/BrowFlick_0_Global_02.png",
+        "link_label": "Learn More",
+        "link_url": "https:\/\/www.glossier.com\/products\/brow-flick"
+      }
+    },
+    "165213936293d3cfa4": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Please remember!",
+        "section-large-heading": "",
+        "description": "Don’t overpluck!! Use the hairs that you have to create a shape you like. I personally like to shape my brows and then go in to pluck any strays that don’t compliment the brow that I just created. You also have to remember too that whatever you pluck is gone and isn’t growing back anytime soon. As we age our eyebrow hairs change and grow back slower and sometimes don’t grow back at all! So be careful and work with what you have without removing what you may need in the future. You can always brush your brows up and trim any hairs that are out of place or do not fit into your natural brow shape rather than pluck as well. Creating the perfect brow takes trial and error.  The more you play, the more you will figure out what products and brow shape works best for you! Following this eyebrow shape guide will help you get started.\n<br><br>\nYou got this, happy brow shaping!",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 25,
+        "mobile_bottom_padding": 25,
+        "desktop_top_padding": 50,
+        "desktop_bottom_padding": 50
+      }
+    }
+  },
+  "order": [
+    "16517046653b1d31b3",
+    "1651688008ff6887a1",
+    "1651688612bbde60c5",
+    "16516889243e7a24e6",
+    "1651688754d6076ecb",
+    "1651688757a14088ff",
+    "1651687039bb8d9e72",
+    "main",
+    "16516314857f6e8373",
+    "1651631614b7100b4e",
+    "165213746698b2cd3d",
+    "16521375515151a53b",
+    "1652137669dff4b181",
+    "16521378524d408711",
+    "165213936293d3cfa4"
+  ]
+}
