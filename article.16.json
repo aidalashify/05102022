@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "How to Apply Makeup like a Pro",
+        "headline": "How to Apply Makeup like a Pro",
+        "mobile_content": "Mikayla Hawkinson",
+        "content": "Mikayla Hawkinson",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/Screen_Shot_2021-04-12_at_10.31.21_AM_520x500_80f287bd-c527-4e4f-9849-c583800f183c.webp",
+        "desktop_height": 500,
+        "mobile_height": 500,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 80,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "desktop_content_position": "left",
+        "mobile_content_position": "center",
+        "display_state": "all"
+      }
+    },
+    "1652140055e4dc5ffc": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "Professional makeup artists have mastered the ability to create healthy, super fresh and barely-there glam. And who doesn’t want all the dirty secrets to attain that flawless look? It consists of technique, skill, and many steps involved in order to achieve it. Here are some great application tips and tricks to apply makeup like a pro!  Let’s start with the foundation of good application: tools.",
+        "section-heading": "",
+        "section-large-heading": "",
+        "description": "",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 25,
+        "mobile_bottom_padding": 25,
+        "desktop_top_padding": 50,
+        "desktop_bottom_padding": 45
+      }
+    },
+    "16521400907b3c6d8d": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Tools",
+        "section-large-heading": "",
+        "description": "Think of tools as your best friends. The Bonnie to your Clyde. The peanut butter to your jelly. Not only can they make the job of applying easier, but they can ensure the finished look is impeccable. Here are the favorites I keep in my kit.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 24,
+        "mobile_bottom_padding": 50,
+        "desktop_top_padding": 20,
+        "desktop_bottom_padding": 55
+      }
+    },
+    "16521400935c8de0ec": {
+      "type": "about-imgLeft",
+      "settings": {
+        "custom_text_span": "Morphe - MUA Life Brush Collection $78 ($217 value)",
+        "custom_text_title": "My go-to brushes",
+        "custom_text_body": "This army of brushes has you covered. Any and every brush you will ever need to apply anything from foundation to shadows to powder is right here. And at a mind-blowing price.\n<br><br>\n<em>Pro Tip: hygiene is critical when it comes to tools. <\/em>\n<br><br>",
+        "column_image": "shopify:\/\/shop_images\/tool_01.png",
+        "link_label": "Learn More",
+        "link_url": "https:\/\/www.morphe.com\/products\/mua-life"
+      }
+    },
+    "165214013327b8692a": {
+      "type": "about-imgRight",
+      "settings": {
+        "custom_text_span1": "Beauty Blender - Blender $20",
+        "custom_text_title-first": "My go-to sponge",
+        "custom_text_body-first": "<p>If you are not familiar with this little workhorse, let me introduce you. This cult-favorite sponge is the #1 best-selling for a reason: soft, latex-free, and blends makeup for a flawless finish.<\/p><p><em>Pro Tip: hygiene is critical when it comes to tools. <\/em><\/p>",
+        "column_image1": "shopify:\/\/shop_images\/tool_02.jpg",
+        "link_label": "Learn More",
+        "link_url": "https:\/\/www.maccosmetics.com\/product\/13811\/55194\/products\/brushes-tools\/tools\/sponges-applicators\/beautyblender-original?RedirectedBot=true&gclid=EAIaIQobChMI3pnB29DT9wIVFMPVCh30NAVBEAAYASAAEgI1NPD_BwE&gclsrc=aw.ds"
+      }
+    },
+    "1652140915e8d519d6": {
+      "type": "about-imgLeft",
+      "settings": {
+        "custom_text_span": "Juno & Co - Storm Cloud Makeup Sponge ($5)",
+        "custom_text_title": "More Affordable Alternative",
+        "custom_text_body": "The ergonomic design of this sponge features a flat top for a great grip when it comes to hard-to-reach areas. Blends perfectly and for a mind-blowing price.\n<br><br>\n<em>Pro Tip: hygiene is critical when it comes to tools. <\/em>\n<br><br>",
+        "column_image": "shopify:\/\/shop_images\/Tool_03.webp",
+        "link_label": "Learn More",
+        "link_url": "https:\/\/www.junoco.com\/products\/storm-cloud-makeup-sponge"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652140055e4dc5ffc",
+    "16521400907b3c6d8d",
+    "16521400935c8de0ec",
+    "165214013327b8692a",
+    "1652140915e8d519d6"
+  ]
+}
