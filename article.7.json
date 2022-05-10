@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "1651719361afbae455": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "THE 62ND GRAMMY AWARDS",
+        "headline": "THE 62ND GRAMMY AWARDS",
+        "mobile_content": "Posted by Afterpay Integration on 14 September, 2021",
+        "content": "Posted by Afterpay Integration on 14 September, 2021",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/drkblue_lightblue_1080x_851aa2c2-f8f2-47ff-97c7-af0d4fc6dd4d.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/drkblue_lightblue_1080x_851aa2c2-f8f2-47ff-97c7-af0d4fc6dd4d.webp",
+        "desktop_height": 612,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 74,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "1651719450221c9e4a": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "A little country music here, a little Spanish flair there, and a bit of Lashify sprinkled everywhere.",
+        "section-heading": "Rosalía",
+        "section-large-heading": "",
+        "description": "Celebrity makeup artist Ariel Tejada created a flawless, understated makeup look for Rosalía's big Grammy moment: she made history as the first artist to be nominated for a Best New Artist award for singing entirely in Spanish and her double-platinum album won Best Latin Rock, Urban, or Alternative Album. Tejada drew attention to her eyes by placing B12 Gossamers along the center of the lash line and then stacked longer B14 Gossamers on the corners to accentuate the line of the winged eye.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651719487900cb672": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Yola",
+        "section-large-heading": "",
+        "description": "With four Grammy nominations including best new artist, Yola needed a major lash look to meet the magnitude of the night.<br><br>\"Yola has a big beautiful voice with a pair of beautiful eyes to go along with it, so why not make them pop even more?\" says celebrity makeup artist Jessica Smalls. We couldn't agree more.<br><br>Smalls used A Gossamers at the inner corners of Yola's eyes, then applied two B14 Gossamers as she moved outward. At the center she used two D16 Gossamers stacked on top of each other for an eye-opening effect. Smalls finished off the rest of Yola's eyes with a stacked combo of D14 and F16 Gossamers to complete a look she described as 'uber-divine'.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    },
+    "1651719546edddc73e": {
+      "type": "blog-text",
+      "settings": {
+        "custom_text_span": "",
+        "section-heading": "Tove Lo",
+        "section-large-heading": "",
+        "description": "Singer Tove Lo may have been nominated for Best Music Video for Glad He's Gone, but we never want her soft, blown-out peach eye look to leave. Celebrity makeup artist Colby Smith created a peach tonal makeup look that really emphasized her lashes.<br><br>\"The cheek melted into the eye,\" he says. \"The point of it was to showcase the lash. I didn't want to do a heavy eye. I just wanted it to be lash-oriented, and what's great about Lashify is that it goes underneath the lash, so you don't see the band. It let me do a really nude, fresh eye that didn't look like she had any liner on.\" <br><br>Smith applied A10 Gossamers from the outer corners of Lo's eyes to her pupils. For an even more natural approach, Smith didn't apply lashes to Lo's inner corners to keep the eye super open.",
+        "view-btn-link": "",
+        "view-btn": "",
+        "mobile_top_padding": 0,
+        "mobile_bottom_padding": 0,
+        "desktop_top_padding": 0,
+        "desktop_bottom_padding": 0
+      }
+    }
+  },
+  "order": [
+    "1651719361afbae455",
+    "1651719450221c9e4a",
+    "1651719487900cb672",
+    "1651719546edddc73e"
+  ]
+}
