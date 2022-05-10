@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-banner",
+      "settings": {
+        "intro": "",
+        "mobile_headline": "The 6 Best Eyelash Looks for Almond Eyes",
+        "headline": "The 6 Best Eyelash Looks for Almond Eyes",
+        "mobile_content": "By Ana Blount",
+        "content": "By Ana Blount",
+        "text_color": "white",
+        "desktop_background_image": "shopify:\/\/shop_images\/ALMOND_COVER_599x_a7341ebb-460c-440b-a567-7086047577fd.webp",
+        "desktop_height": 612,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 73,
+        "desktop_text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "center",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    },
+    "1652114951dba3df9d": {
+      "type": "blog-banner",
+      "disabled": true,
+      "settings": {
+        "intro": "",
+        "mobile_headline": "",
+        "headline": "",
+        "mobile_content": "",
+        "content": "",
+        "text_color": "white",
+        "desktop_height": 612,
+        "mobile_height": 680,
+        "cta_text": "",
+        "cta_link": "",
+        "secondary_cta_text": "",
+        "secondary_cta_link": "",
+        "video_url": "",
+        "overlay_opacity3": 0,
+        "desktop_text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "desktop_content_position": "right",
+        "mobile_content_position": "bottom",
+        "display_state": "all"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652114951dba3df9d"
+  ]
+}
